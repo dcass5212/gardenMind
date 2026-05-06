@@ -6,6 +6,8 @@ Built with [Groq](https://groq.com) (llama-3.1-8b-instant), [OpenWeatherMap](htt
 
 ## Demo
 
+**Live app: [gardenmind.streamlit.app](https://gardenmind.streamlit.app)**
+
 | Welcome state | Live tool calls | Final response |
 |---|---|---|
 | ![Welcome](docs/screenshot-welcome.png) | ![Tool call](docs/screenshot-tool-call.png) | ![Response](docs/screenshot-response.png) |
