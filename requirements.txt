@@ -1,0 +1,4 @@
+groq
+requests
+streamlit
+python-dotenv

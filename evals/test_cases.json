@@ -1,0 +1,202 @@
+[
+  {
+    "id": "weather_current_chicago",
+    "category": "weather",
+    "description": "Fetches current weather for a plain city name",
+    "input": "What's the current weather in Chicago?",
+    "expected_tools": ["get_current_weather"],
+    "expected_keywords": ["chicago", "temperature"]
+  },
+  {
+    "id": "weather_current_state_suffix",
+    "category": "weather",
+    "description": "City with state abbreviation — exercises OWM location normalizer",
+    "input": "What is the weather in Seattle, WA right now?",
+    "expected_tools": ["get_current_weather"],
+    "expected_keywords": ["seattle"]
+  },
+  {
+    "id": "weather_forecast_basic",
+    "category": "weather",
+    "description": "Multi-day forecast request",
+    "input": "Give me a 3-day weather forecast for Atlanta.",
+    "expected_tools": ["get_forecast"],
+    "expected_keywords": ["atlanta"]
+  },
+  {
+    "id": "weather_forecast_5day",
+    "category": "weather",
+    "description": "5-day forecast request",
+    "input": "What's the 5-day forecast for Houston?",
+    "expected_tools": ["get_forecast"],
+    "expected_keywords": ["houston"]
+  },
+  {
+    "id": "weather_gardening_context",
+    "category": "weather",
+    "description": "Weather question framed around a gardening decision",
+    "input": "Is it a good day to water my outdoor plants in Denver today?",
+    "expected_tools": ["get_current_weather"],
+    "expected_keywords": ["denver", "water"]
+  },
+  {
+    "id": "frost_denver",
+    "category": "frost_dates",
+    "description": "Direct frost date lookup for Denver",
+    "input": "What are the average spring and fall frost dates for Denver?",
+    "expected_tools": ["get_frost_dates"],
+    "expected_keywords": ["denver", "frost"]
+  },
+  {
+    "id": "frost_seattle",
+    "category": "frost_dates",
+    "description": "Spring frost date lookup for Seattle",
+    "input": "When is the last spring frost in Seattle?",
+    "expected_tools": ["get_frost_dates"],
+    "expected_keywords": ["seattle", "frost"]
+  },
+  {
+    "id": "frost_fall_chicago",
+    "category": "frost_dates",
+    "description": "Fall frost date lookup for Chicago",
+    "input": "When does the first fall frost typically hit Chicago?",
+    "expected_tools": ["get_frost_dates"],
+    "expected_keywords": ["chicago", "frost"]
+  },
+  {
+    "id": "frost_nashville",
+    "category": "frost_dates",
+    "description": "Frost dates with state suffix in query",
+    "input": "What are the frost dates for Nashville, TN?",
+    "expected_tools": ["get_frost_dates"],
+    "expected_keywords": ["nashville"]
+  },
+  {
+    "id": "frost_unknown_city",
+    "category": "frost_dates",
+    "description": "Unknown city — agent should handle error gracefully, not crash",
+    "input": "What are the frost dates for Whoville?",
+    "expected_tools": ["get_frost_dates"],
+    "expected_keywords": []
+  },
+  {
+    "id": "plant_tomato",
+    "category": "plant_care",
+    "description": "Tomato care lookup — watering and sun",
+    "input": "What are the watering and sun requirements for tomatoes?",
+    "expected_tools": ["lookup_plant_care"],
+    "expected_keywords": ["tomato", "sun"]
+  },
+  {
+    "id": "plant_plural_marigolds",
+    "category": "plant_care",
+    "description": "Plural plant name — exercises trailing-s normalization",
+    "input": "How do I care for marigolds?",
+    "expected_tools": ["lookup_plant_care"],
+    "expected_keywords": ["marigold"]
+  },
+  {
+    "id": "plant_hyphenated",
+    "category": "plant_care",
+    "description": "Hyphenated common name",
+    "input": "What are the common problems with Black-Eyed Susan?",
+    "expected_tools": ["lookup_plant_care"],
+    "expected_keywords": ["black-eyed susan", "mildew"]
+  },
+  {
+    "id": "plant_herb_rosemary",
+    "category": "plant_care",
+    "description": "Herb watering frequency lookup",
+    "input": "How often do I need to water my rosemary?",
+    "expected_tools": ["lookup_plant_care"],
+    "expected_keywords": ["rosemary", "week"]
+  },
+  {
+    "id": "plant_unknown",
+    "category": "plant_care",
+    "description": "Unknown plant — agent should handle error gracefully",
+    "input": "How do I care for dragon fruit?",
+    "expected_tools": ["lookup_plant_care"],
+    "expected_keywords": []
+  },
+  {
+    "id": "profile_create",
+    "category": "garden_profile",
+    "description": "Create a new garden profile via natural language",
+    "input": "Save my garden profile: I'm user evals_user, I'm located in Boston, MA, and I grow tomatoes, basil, and marigolds.",
+    "expected_tools": ["update_garden_profile"],
+    "expected_keywords": ["boston", "profile"]
+  },
+  {
+    "id": "profile_load",
+    "category": "garden_profile",
+    "description": "Load an existing profile (depends on profile_create running first)",
+    "input": "Load the garden profile for evals_user.",
+    "expected_tools": ["get_garden_profile"],
+    "expected_keywords": ["boston", "tomato"]
+  },
+  {
+    "id": "profile_update",
+    "category": "garden_profile",
+    "description": "Update an existing profile by adding a plant",
+    "input": "Update my profile for evals_user — add kale to my list of plants.",
+    "expected_tools": ["update_garden_profile"],
+    "expected_keywords": ["kale"]
+  },
+  {
+    "id": "profile_not_found",
+    "category": "garden_profile",
+    "description": "Load a profile that does not exist — expects graceful error",
+    "input": "Load the garden profile for user nonexistent_xyz_fake.",
+    "expected_tools": ["get_garden_profile"],
+    "expected_keywords": []
+  },
+  {
+    "id": "profile_location_update",
+    "category": "garden_profile",
+    "description": "Create a second user profile with just a location",
+    "input": "Save a profile for user evals_user2 with location Portland, OR.",
+    "expected_tools": ["update_garden_profile"],
+    "expected_keywords": ["portland"]
+  },
+  {
+    "id": "integration_planting_safety",
+    "category": "integration",
+    "description": "Multi-step: current weather + frost dates + plant care for a planting decision",
+    "input": "I'm in Denver, CO growing tomatoes. Is it safe to transplant them outside this week given current conditions?",
+    "expected_tools": ["get_current_weather", "get_frost_dates"],
+    "expected_keywords": ["denver", "frost", "tomato"]
+  },
+  {
+    "id": "integration_heat_herb",
+    "category": "integration",
+    "description": "Multi-step: current weather + plant care for heat-sensitive herb",
+    "input": "I'm in Phoenix growing basil. Should I be worried about the heat for my plants right now?",
+    "expected_tools": ["get_current_weather", "lookup_plant_care"],
+    "expected_keywords": ["basil", "phoenix"]
+  },
+  {
+    "id": "integration_cold_tolerance",
+    "category": "integration",
+    "description": "Multi-step: current weather + plant care to assess cold damage risk",
+    "input": "I have lavender growing in Atlanta. Is the current temperature safe for it?",
+    "expected_tools": ["get_current_weather", "lookup_plant_care"],
+    "expected_keywords": ["lavender", "temperature"]
+  },
+  {
+    "id": "integration_forecast_crop",
+    "category": "integration",
+    "description": "Multi-step: forecast + plant care for weekly garden planning",
+    "input": "What does the weather forecast look like for my kale in Seattle this week?",
+    "expected_tools": ["get_forecast", "lookup_plant_care"],
+    "expected_keywords": ["kale", "seattle"]
+  },
+  {
+    "id": "integration_profile_weather",
+    "category": "integration",
+    "description": "Multi-step: load profile + current weather for personalised advice",
+    "input": "I'm user evals_user. Look up my garden profile and tell me what the weather means for my plants this week.",
+    "expected_tools": ["get_garden_profile", "get_current_weather"],
+    "expected_keywords": ["boston", "weather"]
+  }
+]

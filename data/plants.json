@@ -1,0 +1,2894 @@
+{
+  "tomato": {
+    "common_name": "Tomato",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 95,
+    "common_problems": [
+      "blossom end rot",
+      "early blight",
+      "aphids",
+      "hornworms",
+      "cracking from inconsistent watering"
+    ],
+    "planting_notes": "Start indoors 6-8 weeks before last frost. Transplant after soil reaches 60°F. Stake or cage plants. Plant deeply — bury up to 2/3 of the stem."
+  },
+  "bell_pepper": {
+    "common_name": "Bell Pepper",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 90,
+    "common_problems": [
+      "blossom drop in heat",
+      "aphids",
+      "bacterial leaf spot",
+      "sunscald"
+    ],
+    "planting_notes": "Start indoors 8-10 weeks before last frost. Do not set out until nights are reliably above 55°F. Very sensitive to cold at transplant time."
+  },
+  "zucchini": {
+    "common_name": "Zucchini",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 95,
+    "common_problems": [
+      "powdery mildew",
+      "squash vine borers",
+      "blossom end rot",
+      "cucumber beetles"
+    ],
+    "planting_notes": "Direct sow after last frost. Harvest at 6-8 inches to keep plant producing. Space hills 3-4 feet apart."
+  },
+  "cucumber": {
+    "common_name": "Cucumber",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 90,
+    "common_problems": [
+      "powdery mildew",
+      "cucumber beetles",
+      "bitter fruit from heat stress",
+      "mosaic virus"
+    ],
+    "planting_notes": "Direct sow after soil hits 70°F. Trellis for better air circulation. Keep soil consistently moist to prevent bitterness."
+  },
+  "carrot": {
+    "common_name": "Carrot",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 45,
+    "max_temp_f": 80,
+    "common_problems": [
+      "forked roots from rocky soil",
+      "carrot rust flies",
+      "cracking",
+      "green shoulders from sun exposure"
+    ],
+    "planting_notes": "Direct sow only — does not transplant. Needs loose, deep, rock-free soil. Thin to 2 inches apart. Frost improves sweetness."
+  },
+  "lettuce": {
+    "common_name": "Lettuce",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 35,
+    "max_temp_f": 75,
+    "common_problems": [
+      "bolting in heat",
+      "tip burn",
+      "slugs",
+      "aphids"
+    ],
+    "planting_notes": "Cool-season crop. Plant in early spring or fall. Afternoon shade extends season in warm climates. Harvest outer leaves to keep plant producing."
+  },
+  "spinach": {
+    "common_name": "Spinach",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 35,
+    "max_temp_f": 75,
+    "common_problems": [
+      "bolting in heat",
+      "downy mildew",
+      "leaf miners",
+      "slugs"
+    ],
+    "planting_notes": "Tolerates light frost. Bolts quickly when days exceed 14 hours. Best in spring or fall. Sow directly, thin to 4 inches apart."
+  },
+  "green_beans": {
+    "common_name": "Green Beans",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 90,
+    "common_problems": [
+      "bean beetles",
+      "aphids",
+      "poor pod set in extreme heat",
+      "root rot in wet soil"
+    ],
+    "planting_notes": "Direct sow after last frost — does not transplant well. Bush types need no staking; pole types need a trellis. Avoid wetting foliage."
+  },
+  "kale": {
+    "common_name": "Kale",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 20,
+    "max_temp_f": 80,
+    "common_problems": [
+      "cabbage worms",
+      "aphids",
+      "flea beetles",
+      "downy mildew"
+    ],
+    "planting_notes": "Extremely frost-hardy — flavor improves after frost. Can overwinter in zones 7+. Direct sow or transplant 4-6 weeks before last frost."
+  },
+  "broccoli": {
+    "common_name": "Broccoli",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 40,
+    "max_temp_f": 75,
+    "common_problems": [
+      "cabbage worms",
+      "clubroot",
+      "downy mildew",
+      "premature heading in heat"
+    ],
+    "planting_notes": "Start indoors 6-8 weeks before last frost for spring, or direct sow 85-100 days before first fall frost. Harvest before heads open into flowers."
+  },
+  "eggplant": {
+    "common_name": "Eggplant",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 95,
+    "common_problems": [
+      "flea beetles",
+      "aphids",
+      "verticillium wilt",
+      "phomopsis blight"
+    ],
+    "planting_notes": "Start indoors 8-10 weeks before last frost. Do not transplant until nights are reliably above 55°F. Very heat-loving — production stalls below 60°F."
+  },
+  "sweet_potato": {
+    "common_name": "Sweet Potato",
+    "type": "vegetable",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 65,
+    "max_temp_f": 100,
+    "common_problems": [
+      "sweet potato weevil",
+      "fusarium wilt",
+      "soil rot",
+      "whiteflies"
+    ],
+    "planting_notes": "Plant slips (not seeds) after soil reaches 65°F. Needs 90-120 frost-free days. Harvest before first fall frost — cold damages roots in the ground."
+  },
+  "potato": {
+    "common_name": "Potato",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 45,
+    "max_temp_f": 80,
+    "common_problems": [
+      "Colorado potato beetle",
+      "late blight",
+      "scab",
+      "wireworms"
+    ],
+    "planting_notes": "Plant seed potatoes 2-4 weeks before last frost. Hill soil around stems as plants grow to prevent greening. Harvest when tops die back."
+  },
+  "onion": {
+    "common_name": "Onion",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 35,
+    "max_temp_f": 85,
+    "common_problems": [
+      "onion thrips",
+      "neck rot",
+      "downy mildew",
+      "onion fly"
+    ],
+    "planting_notes": "Start from sets or transplants for best results. Long-day varieties for northern gardens, short-day for south. Stop watering when tops fall over to cure bulbs."
+  },
+  "garlic": {
+    "common_name": "Garlic",
+    "type": "vegetable",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "white rot",
+      "rust",
+      "onion thrips",
+      "basal rot"
+    ],
+    "planting_notes": "Plant individual cloves in fall, 6-8 weeks before ground freezes. Harvest when lower leaves brown but 5-6 green leaves remain. Cure in warm, dry place for 4-6 weeks."
+  },
+  "radish": {
+    "common_name": "Radish",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 40,
+    "max_temp_f": 70,
+    "common_problems": [
+      "flea beetles",
+      "clubroot",
+      "root maggots"
+    ],
+    "planting_notes": "Fastest-maturing vegetable — ready in 20-30 days. Sow directly every 2 weeks for continuous harvest. Bolts quickly in heat; grow in spring and fall only."
+  },
+  "beet": {
+    "common_name": "Beet",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 40,
+    "max_temp_f": 80,
+    "common_problems": [
+      "cercospora leaf spot",
+      "leaf miners",
+      "downy mildew"
+    ],
+    "planting_notes": "Direct sow 4-6 weeks before last frost. Each 'seed' is a cluster of 2-4 seeds — thin to 3 inches apart. Both roots and greens are edible. Frost improves sweetness."
+  },
+  "snap_pea": {
+    "common_name": "Snap Pea",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 40,
+    "max_temp_f": 75,
+    "common_problems": [
+      "powdery mildew",
+      "pea aphids",
+      "fusarium wilt"
+    ],
+    "planting_notes": "Direct sow 4-6 weeks before last frost. Provide a trellis for climbing types. Stops producing in summer heat — plant again in late summer for a fall crop."
+  },
+  "swiss_chard": {
+    "common_name": "Swiss Chard",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 35,
+    "max_temp_f": 90,
+    "common_problems": [
+      "leaf miners",
+      "cercospora leaf spot",
+      "slugs"
+    ],
+    "planting_notes": "Highly heat- and cold-tolerant — one of the most forgiving vegetables. Cut outer stalks to encourage continuous growth. Colorful stems make it ornamental."
+  },
+  "cauliflower": {
+    "common_name": "Cauliflower",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 40,
+    "max_temp_f": 75,
+    "common_problems": [
+      "cabbage worms",
+      "clubroot",
+      "downy mildew",
+      "hollow stem from boron deficiency"
+    ],
+    "planting_notes": "Start indoors 6-8 weeks before last frost. Blanch heads by tying outer leaves over the curd when heads reach 2-3 inches. Very temperature-sensitive."
+  },
+  "cabbage": {
+    "common_name": "Cabbage",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 35,
+    "max_temp_f": 75,
+    "common_problems": [
+      "cabbage worms",
+      "clubroot",
+      "aphids",
+      "black rot"
+    ],
+    "planting_notes": "Cool-season crop. Start indoors 6-8 weeks before last frost or direct sow in late summer for fall harvest. Heads may split if not harvested promptly after maturity."
+  },
+  "brussels_sprouts": {
+    "common_name": "Brussels Sprouts",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 35,
+    "max_temp_f": 75,
+    "common_problems": [
+      "cabbage worms",
+      "aphids",
+      "downy mildew",
+      "black rot"
+    ],
+    "planting_notes": "Long season (80-100 days). Start indoors 12-14 weeks before first fall frost. Flavor improves after light frost. Remove lower leaves as sprouts develop to direct energy upward."
+  },
+  "butternut_squash": {
+    "common_name": "Butternut Squash",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 95,
+    "common_problems": [
+      "squash vine borers",
+      "powdery mildew",
+      "cucumber beetles"
+    ],
+    "planting_notes": "Direct sow after last frost. Needs 75-100 days to maturity. Leave on vine until stem dries. Cure at room temperature for 10 days; stores for months."
+  },
+  "pumpkin": {
+    "common_name": "Pumpkin",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 95,
+    "common_problems": [
+      "powdery mildew",
+      "squash vine borers",
+      "cucumber beetles",
+      "bacterial wilt"
+    ],
+    "planting_notes": "Direct sow after last frost. Needs a lot of space — plant in hills 4-6 feet apart. Count back 100-110 days from desired harvest date to set planting date."
+  },
+  "hot_pepper": {
+    "common_name": "Hot Pepper",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 65,
+    "max_temp_f": 95,
+    "common_problems": [
+      "aphids",
+      "bacterial leaf spot",
+      "blossom drop in extreme heat",
+      "tobacco mosaic virus"
+    ],
+    "planting_notes": "Start indoors 10-12 weeks before last frost. Warmer than bell peppers — do not transplant until soil is consistently warm. Harvest at any stage; color deepens as peppers ripen."
+  },
+  "leek": {
+    "common_name": "Leek",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 35,
+    "max_temp_f": 80,
+    "common_problems": [
+      "onion thrips",
+      "leek rust",
+      "allium leaf miner"
+    ],
+    "planting_notes": "Start indoors 10-12 weeks before last frost. Transplant into trenches and gradually fill with soil as plants grow to blanch the stem. Extremely cold-hardy — can overwinter in zones 5+."
+  },
+  "corn": {
+    "common_name": "Corn",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 95,
+    "common_problems": [
+      "corn earworm",
+      "corn smut",
+      "rootworm",
+      "bacterial wilt"
+    ],
+    "planting_notes": "Direct sow after soil reaches 60°F. Plant in blocks (at least 4 rows wide) rather than single rows for proper wind pollination. Consistent moisture is critical at tasseling."
+  },
+  "asparagus": {
+    "common_name": "Asparagus",
+    "type": "vegetable",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 95,
+    "common_problems": [
+      "asparagus beetle",
+      "fusarium crown rot",
+      "rust"
+    ],
+    "planting_notes": "Perennial — plant crowns in spring 12-18 inches deep. Do not harvest first 2 years to allow root establishment. Plants can produce for 20+ years. Leave fronds standing until spring to protect crowns."
+  },
+  "celery": {
+    "common_name": "Celery",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 45,
+    "max_temp_f": 80,
+    "common_problems": [
+      "early blight",
+      "celery leaf miner",
+      "aphids",
+      "blackheart from calcium deficiency"
+    ],
+    "planting_notes": "Very long season (120 days). Start indoors 10-12 weeks before last frost. Needs consistent moisture and cool temperatures. Wrap stalks to blanch and reduce bitterness."
+  },
+  "arugula": {
+    "common_name": "Arugula",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 35,
+    "max_temp_f": 70,
+    "common_problems": [
+      "flea beetles",
+      "downy mildew",
+      "bolting in heat"
+    ],
+    "planting_notes": "Fast-maturing (35-40 days). Bolts quickly in summer heat — grow in spring and fall. Succession sow every 2 weeks. Baby leaves are mildest; older leaves are more peppery."
+  },
+  "bok_choy": {
+    "common_name": "Bok Choy",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 35,
+    "max_temp_f": 75,
+    "common_problems": [
+      "cabbage worms",
+      "flea beetles",
+      "aphids",
+      "clubroot"
+    ],
+    "planting_notes": "Cool-season crop. Start in early spring or late summer for fall. Bolts in heat — keep below 75°F for best quality. Harvest whole head or individual outer leaves."
+  },
+  "turnip": {
+    "common_name": "Turnip",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 40,
+    "max_temp_f": 75,
+    "common_problems": [
+      "flea beetles",
+      "clubroot",
+      "root maggots"
+    ],
+    "planting_notes": "Cool-season crop. Direct sow in early spring or late summer. Matures in 45-60 days. Both roots and greens are edible. Frost improves flavor."
+  },
+  "kohlrabi": {
+    "common_name": "Kohlrabi",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 40,
+    "max_temp_f": 75,
+    "common_problems": [
+      "cabbage worms",
+      "flea beetles",
+      "clubroot",
+      "aphids"
+    ],
+    "planting_notes": "Cool-season crop. Direct sow or transplant 4-6 weeks before last frost. Harvest when the bulb reaches 2-3 inches — gets tough and woody if left too long."
+  },
+  "okra": {
+    "common_name": "Okra",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 65,
+    "max_temp_f": 100,
+    "common_problems": [
+      "aphids",
+      "stink bugs",
+      "fusarium wilt",
+      "corn earworm"
+    ],
+    "planting_notes": "Very heat-loving — plant after soil reaches 65°F. Direct sow or start indoors 4-6 weeks early. Harvest pods every 2-3 days at 2-4 inches to prevent woodiness. Wear gloves — plants are prickly."
+  },
+  "fennel": {
+    "common_name": "Fennel",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 40,
+    "max_temp_f": 90,
+    "common_problems": [
+      "aphids",
+      "parsley worm",
+      "damping off"
+    ],
+    "planting_notes": "Direct sow after last frost — does not transplant well. Allelopathic — keep away from most vegetables, especially tomatoes. Harvest Florence fennel bulb when it reaches tennis-ball size."
+  },
+  "basil": {
+    "common_name": "Basil",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 95,
+    "common_problems": [
+      "downy mildew",
+      "aphids",
+      "bolting in heat",
+      "root rot from overwatering"
+    ],
+    "planting_notes": "Do not plant until nights are above 50°F. Pinch flower buds to extend harvest. Grows well in containers. Plant near tomatoes as a companion."
+  },
+  "rosemary": {
+    "common_name": "Rosemary",
+    "type": "herb",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 30,
+    "max_temp_f": 100,
+    "common_problems": [
+      "root rot from overwatering",
+      "powdery mildew in humid climates",
+      "spider mites indoors"
+    ],
+    "planting_notes": "Drought-tolerant once established. Needs excellent drainage — avoid clay soils. Perennial in zones 7+; overwinter indoors in colder climates."
+  },
+  "thyme": {
+    "common_name": "Thyme",
+    "type": "herb",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 20,
+    "max_temp_f": 95,
+    "common_problems": [
+      "root rot in poorly drained soil",
+      "fungal disease in humid conditions"
+    ],
+    "planting_notes": "Very drought-tolerant and cold-hardy. Perennial in zones 4+. Trim after flowering to prevent woodiness. Excellent container plant."
+  },
+  "mint": {
+    "common_name": "Mint",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "rust fungus",
+      "aphids",
+      "invasive spreading if not contained",
+      "spider mites in dry conditions"
+    ],
+    "planting_notes": "Spreads aggressively via runners — grow in containers or use a root barrier. Perennial in zones 3-8. Harvest regularly to keep bushy."
+  },
+  "parsley": {
+    "common_name": "Parsley",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 40,
+    "max_temp_f": 85,
+    "common_problems": [
+      "carrot flies",
+      "aphids",
+      "bolting in second year"
+    ],
+    "planting_notes": "Biennial grown as annual. Slow to germinate — soak seeds overnight to speed germination. Start indoors 10-12 weeks before last frost. Tolerates light frost."
+  },
+  "cilantro": {
+    "common_name": "Cilantro",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 75,
+    "common_problems": [
+      "bolting in heat",
+      "powdery mildew",
+      "leaf spot"
+    ],
+    "planting_notes": "Bolts quickly in summer heat. Succession-sow every 3 weeks for continuous harvest. Once it bolts, seeds can be harvested as coriander."
+  },
+  "oregano": {
+    "common_name": "Oregano",
+    "type": "herb",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 95,
+    "common_problems": [
+      "root rot from overwatering",
+      "aphids",
+      "spider mites indoors"
+    ],
+    "planting_notes": "Drought-tolerant once established. Flavor intensifies when plants are slightly stressed. Perennial in zones 5+. Harvest before flowering for best flavor."
+  },
+  "chives": {
+    "common_name": "Chives",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "downy mildew",
+      "onion thrips",
+      "pink root"
+    ],
+    "planting_notes": "Hardy perennial in zones 3-9. Cut back to 2 inches after harvest to encourage regrowth. Edible purple flowers attract pollinators."
+  },
+  "sage": {
+    "common_name": "Sage",
+    "type": "herb",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 20,
+    "max_temp_f": 95,
+    "common_problems": [
+      "powdery mildew",
+      "spider mites",
+      "root rot from overwatering"
+    ],
+    "planting_notes": "Drought-tolerant perennial in zones 5-8. Prune heavily after flowering to prevent woodiness. Best flavor right before flowering. Start from cuttings or transplants — seed germination is slow."
+  },
+  "dill": {
+    "common_name": "Dill",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 45,
+    "max_temp_f": 85,
+    "common_problems": [
+      "aphids",
+      "parsley worm (swallowtail caterpillar)",
+      "powdery mildew"
+    ],
+    "planting_notes": "Direct sow only — does not transplant. Bolts in heat. Succession sow for continuous harvest. Allow some to go to seed for dill seed used in pickling. Self-seeds freely."
+  },
+  "tarragon": {
+    "common_name": "Tarragon",
+    "type": "herb",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 20,
+    "max_temp_f": 90,
+    "common_problems": [
+      "rust",
+      "powdery mildew",
+      "root rot in wet soil"
+    ],
+    "planting_notes": "French tarragon (best flavor) does not set viable seed — buy transplants. Russian tarragon grows from seed but has inferior flavor. Perennial in zones 4+. Divide clumps every 2-3 years."
+  },
+  "lemon_balm": {
+    "common_name": "Lemon Balm",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "powdery mildew",
+      "leaf miners",
+      "aphids"
+    ],
+    "planting_notes": "Very easy to grow. Can become invasive — grow in containers or cut back before flowering. Perennial in zones 4-9. Repels mosquitoes and attracts pollinators."
+  },
+  "chamomile": {
+    "common_name": "Chamomile",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 35,
+    "max_temp_f": 85,
+    "common_problems": [
+      "aphids",
+      "thrips",
+      "overwatering leading to root rot"
+    ],
+    "planting_notes": "German chamomile is annual; Roman chamomile is perennial. Direct sow on soil surface — needs light to germinate. Harvest flowers when fully open. Self-seeds freely."
+  },
+  "stevia": {
+    "common_name": "Stevia",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 100,
+    "common_problems": [
+      "powdery mildew",
+      "aphids",
+      "root rot in poorly drained soil"
+    ],
+    "planting_notes": "Tender perennial — grow as annual in zones below 8. Start indoors 6-8 weeks before last frost. Harvest leaves before flowering for sweetest flavor. Dry leaves to concentrate sweetness."
+  },
+  "lemongrass": {
+    "common_name": "Lemongrass",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 55,
+    "max_temp_f": 100,
+    "common_problems": [
+      "rust",
+      "spider mites",
+      "scale insects"
+    ],
+    "planting_notes": "Tropical plant — grow as annual in zones below 9. Very heat-loving. Can overwinter indoors in a sunny spot. Harvest by cutting stalks at the base. Use the tender inner stalk for cooking."
+  },
+  "bay_laurel": {
+    "common_name": "Bay Laurel",
+    "type": "herb",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 25,
+    "max_temp_f": 100,
+    "common_problems": [
+      "scale insects",
+      "bay sucker",
+      "leaf spots"
+    ],
+    "planting_notes": "Slow-growing tree/shrub. Hardy in zones 8+ outdoors; grow as container plant in colder zones and overwinter indoors. Very drought-tolerant. Allow leaves to dry before using in cooking."
+  },
+  "borage": {
+    "common_name": "Borage",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 45,
+    "max_temp_f": 90,
+    "common_problems": [
+      "aphids",
+      "powdery mildew"
+    ],
+    "planting_notes": "Annual with cucumber-flavored leaves and edible blue star-shaped flowers. Direct sow after last frost. Self-seeds freely. Excellent companion plant — attracts bees and is said to deter tomato hornworms."
+  },
+  "catnip": {
+    "common_name": "Catnip",
+    "type": "herb",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "aphids",
+      "spider mites",
+      "cats destroying young plants"
+    ],
+    "planting_notes": "Perennial in zones 3-9. Protect young transplants from cats with wire cloches until established. Attracts bees and butterflies. Can become invasive — consider containers."
+  },
+  "marjoram": {
+    "common_name": "Marjoram",
+    "type": "herb",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 95,
+    "common_problems": [
+      "spider mites",
+      "aphids",
+      "root rot from overwatering"
+    ],
+    "planting_notes": "Sweet marjoram is tender — grow as annual in zones below 9. Milder and sweeter than oregano. Harvest before flowers open for best flavor. Excellent dried herb."
+  },
+  "sorrel": {
+    "common_name": "Sorrel",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "aphids",
+      "slugs",
+      "rust"
+    ],
+    "planting_notes": "Hardy perennial in zones 3-7. One of the first greens ready in spring. Lemony, tart flavor. Bolts in heat — cut back to encourage fresh growth. Leaves become more sour with age."
+  },
+  "chervil": {
+    "common_name": "Chervil",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 40,
+    "max_temp_f": 68,
+    "common_problems": [
+      "bolting in heat",
+      "aphids",
+      "leaf miners"
+    ],
+    "planting_notes": "Cool-season herb related to parsley. Direct sow only — does not transplant well. Prefers shade; excellent under taller plants. Bolts quickly in heat; grow in spring and fall."
+  },
+  "lovage": {
+    "common_name": "Lovage",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "leaf miners",
+      "rust",
+      "powdery mildew"
+    ],
+    "planting_notes": "Hardy perennial in zones 3-9. Tastes like intense celery — use sparingly. Can grow 4-6 feet tall. Cut back after flowering to encourage fresh growth. Very low maintenance."
+  },
+  "hyssop": {
+    "common_name": "Hyssop",
+    "type": "herb",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 20,
+    "max_temp_f": 100,
+    "common_problems": [
+      "root rot if overwatered",
+      "aphids"
+    ],
+    "planting_notes": "Hardy perennial in zones 4-9. Drought-tolerant once established. Blue/purple flowers attract bees and butterflies. Harvest before or during flowering for best flavor. Good companion plant for brassicas."
+  },
+  "valerian": {
+    "common_name": "Valerian",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "aphids (attracts them — useful as trap crop)",
+      "powdery mildew"
+    ],
+    "planting_notes": "Perennial in zones 4-9. Roots used medicinally for sleep. Flowers attract cats similarly to catnip. Excellent pollinator plant. Can self-seed aggressively — deadhead to control spread."
+  },
+  "thai_basil": {
+    "common_name": "Thai Basil",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 55,
+    "max_temp_f": 95,
+    "common_problems": [
+      "downy mildew",
+      "aphids",
+      "fusarium wilt"
+    ],
+    "planting_notes": "More heat-tolerant than Italian basil. Anise/licorice flavor with purple stems and flowers (flowers are edible). Do not plant until nights are reliably above 55°F. Pinch regularly to prevent bolting."
+  },
+  "marigold": {
+    "common_name": "Marigold",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 95,
+    "common_problems": [
+      "powdery mildew",
+      "spider mites in dry conditions",
+      "botrytis in wet conditions",
+      "leafhoppers"
+    ],
+    "planting_notes": "Excellent pest deterrent — plant near tomatoes, peppers, and squash. Deadhead regularly for continuous bloom. Direct sow after last frost or start indoors 6-8 weeks early."
+  },
+  "sunflower": {
+    "common_name": "Sunflower",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 105,
+    "common_problems": [
+      "downy mildew",
+      "birds eating seeds",
+      "aphids",
+      "sclerotinia stem rot"
+    ],
+    "planting_notes": "Direct sow after last frost. Drought-tolerant once established. Taller varieties may need staking. Do not plant near potatoes."
+  },
+  "lavender": {
+    "common_name": "Lavender",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 10,
+    "max_temp_f": 100,
+    "common_problems": [
+      "root rot in poorly drained soil",
+      "shab disease",
+      "xylella fastidiosa in southern climates"
+    ],
+    "planting_notes": "Needs excellent drainage — raised beds or sandy soil ideal. Do not overwater. Prune by 1/3 after flowering. Perennial in zones 5-8. Highly drought-tolerant once established."
+  },
+  "zinnia": {
+    "common_name": "Zinnia",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 100,
+    "common_problems": [
+      "powdery mildew",
+      "bacterial leaf spot",
+      "caterpillars"
+    ],
+    "planting_notes": "Direct sow after last frost — dislikes root disturbance. Water at the base to prevent mildew. Deadhead to encourage more blooms. Excellent pollinator attractor."
+  },
+  "black_eyed_susan": {
+    "common_name": "Black-Eyed Susan",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "powdery mildew",
+      "aphids",
+      "sawfly larvae",
+      "angular leaf spot"
+    ],
+    "planting_notes": "Native wildflower — drought-tolerant once established. Self-seeds freely. Perennial in zones 3-9. Leave seed heads through winter for birds."
+  },
+  "petunia": {
+    "common_name": "Petunia",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 40,
+    "max_temp_f": 90,
+    "common_problems": [
+      "botrytis blight",
+      "aphids",
+      "tobacco budworm",
+      "viral mosaic"
+    ],
+    "planting_notes": "Start indoors 10-12 weeks before last frost. Pinch back leggy plants to promote bushiness. Deadhead or shear by 1/3 mid-season to revive blooming."
+  },
+  "cosmos": {
+    "common_name": "Cosmos",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 55,
+    "max_temp_f": 100,
+    "common_problems": [
+      "aphids",
+      "powdery mildew in humid conditions",
+      "botrytis"
+    ],
+    "planting_notes": "Direct sow after last frost. Thrives in poor, dry soil — rich soil produces leaves over flowers. Self-seeds readily. Excellent cut flower and pollinator plant."
+  },
+  "dahlia": {
+    "common_name": "Dahlia",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 55,
+    "max_temp_f": 90,
+    "common_problems": [
+      "powdery mildew",
+      "aphids",
+      "thrips",
+      "earwigs",
+      "tuber rot in wet soil"
+    ],
+    "planting_notes": "Plant tubers after last frost when soil reaches 60°F. Do not water until sprouts emerge to prevent rot. Pinch growing tip at 12 inches for bushier plants. Dig tubers before first frost in zones below 8."
+  },
+  "rose": {
+    "common_name": "Rose",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 20,
+    "max_temp_f": 90,
+    "common_problems": [
+      "black spot",
+      "powdery mildew",
+      "aphids",
+      "Japanese beetles",
+      "rose slug"
+    ],
+    "planting_notes": "Plant in full sun with good air circulation to prevent disease. Deadhead regularly. Prune in early spring when forsythia blooms. Mulch roots well but keep mulch away from the cane."
+  },
+  "coneflower": {
+    "common_name": "Coneflower",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "aster yellows",
+      "powdery mildew",
+      "aphids",
+      "Japanese beetles"
+    ],
+    "planting_notes": "Native prairie perennial — drought-tolerant once established (zones 3-9). Leave seed heads through winter for birds. Self-seeds freely. Excellent cut flower and pollinator magnet."
+  },
+  "hydrangea": {
+    "common_name": "Hydrangea",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 10,
+    "max_temp_f": 90,
+    "common_problems": [
+      "powdery mildew",
+      "botrytis",
+      "spider mites",
+      "leaf spot"
+    ],
+    "planting_notes": "Bloom color on bigleaf types is pH-dependent (acidic = blue, alkaline = pink). Water deeply and consistently — large leaves lose moisture fast. Prune timing varies by type: bigleaf after bloom, panicle in early spring."
+  },
+  "impatiens": {
+    "common_name": "Impatiens",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 50,
+    "max_temp_f": 85,
+    "common_problems": [
+      "impatiens downy mildew",
+      "aphids",
+      "thrips",
+      "spider mites"
+    ],
+    "planting_notes": "Classic shade annual. Avoid old-type impatiens — highly susceptible to downy mildew. New Guinea impatiens are more tolerant and handle more sun. Plant after last frost."
+  },
+  "geranium": {
+    "common_name": "Geranium",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 45,
+    "max_temp_f": 85,
+    "common_problems": [
+      "botrytis",
+      "bacterial leaf spot",
+      "root rot",
+      "whitefly"
+    ],
+    "planting_notes": "Annual in zones below 10. Deadhead regularly. Let soil dry between waterings — overwatering is the most common mistake. Can overwinter indoors. Pinch in midsummer to encourage fall blooming."
+  },
+  "begonia": {
+    "common_name": "Begonia",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 50,
+    "max_temp_f": 85,
+    "common_problems": [
+      "powdery mildew",
+      "botrytis",
+      "mealybugs",
+      "root rot"
+    ],
+    "planting_notes": "Annual in zones below 9. Tuberous begonias prefer morning sun/afternoon shade. Wax begonias tolerate more sun. Plant after last frost. Allow soil to partially dry between waterings."
+  },
+  "pansy": {
+    "common_name": "Pansy",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 25,
+    "max_temp_f": 65,
+    "common_problems": [
+      "aphids",
+      "slugs",
+      "powdery mildew",
+      "fungal leaf spot"
+    ],
+    "planting_notes": "Cool-season annual. Plant in early spring or fall — blooms through light frosts. Declines in summer heat but often revives in fall. Deadhead to prolong bloom."
+  },
+  "snapdragon": {
+    "common_name": "Snapdragon",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 35,
+    "max_temp_f": 75,
+    "common_problems": [
+      "rust",
+      "botrytis",
+      "aphids",
+      "downy mildew"
+    ],
+    "planting_notes": "Cool-season annual that tolerates light frost. Plant in early spring. Declines in summer heat but often rebounds in fall. Pinch growing tip to encourage branching and more blooms."
+  },
+  "columbine": {
+    "common_name": "Columbine",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "powdery mildew",
+      "columbine leaf miner",
+      "aphids",
+      "root rot"
+    ],
+    "planting_notes": "Perennial in zones 3-8. Self-seeds freely and hybridizes if multiple colors are grown together. Tolerates dappled shade well. Cut back after bloom to prevent excessive self-seeding."
+  },
+  "coreopsis": {
+    "common_name": "Coreopsis",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "aster yellows",
+      "powdery mildew",
+      "aphids"
+    ],
+    "planting_notes": "Very drought-tolerant perennial once established (zones 4-9). Deadhead regularly for months of continuous bloom. Thread-leaf varieties are especially heat-tolerant. Excellent pollinator plant."
+  },
+  "daylily": {
+    "common_name": "Daylily",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "aphids",
+      "thrips",
+      "rust",
+      "crown rot"
+    ],
+    "planting_notes": "Extremely adaptable perennial (zones 3-9). Each flower lasts one day but plants produce hundreds. Divide clumps every 3-5 years to maintain vigor. Spreads to naturalize easily. Not a true lily."
+  },
+  "foxglove": {
+    "common_name": "Foxglove",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 80,
+    "common_problems": [
+      "aphids",
+      "powdery mildew",
+      "leaf spot"
+    ],
+    "planting_notes": "Biennial or short-lived perennial. Allow to self-seed for a continuous colony. ALL parts are toxic — wear gloves when handling. Attracts hummingbirds and bumblebees."
+  },
+  "hollyhock": {
+    "common_name": "Hollyhock",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 95,
+    "common_problems": [
+      "rust (very common)",
+      "Japanese beetles",
+      "spider mites"
+    ],
+    "planting_notes": "Biennial or short-lived perennial (zones 3-8). Self-seeds freely for a cottage-garden effect. Stake in windy areas — can reach 6-8 feet. Rust is nearly inevitable; remove affected leaves promptly."
+  },
+  "salvia": {
+    "common_name": "Salvia",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "powdery mildew",
+      "root rot",
+      "spider mites"
+    ],
+    "planting_notes": "Wide genus — many perennial species are drought-tolerant (zones 4-9). Annual salvias bloom longer. Excellent hummingbird and pollinator plant. Deadhead regularly. Generally deer-resistant."
+  },
+  "sedum": {
+    "common_name": "Sedum",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "root rot from overwatering",
+      "aphids",
+      "mealybugs"
+    ],
+    "planting_notes": "Succulent — extremely drought-tolerant once established. Upright types (Autumn Joy) excellent for fall color and pollinator support. Low-growing types work as groundcover. Perennial in zones 3-9."
+  },
+  "yarrow": {
+    "common_name": "Yarrow",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "powdery mildew",
+      "stem rot in wet soil",
+      "aphids"
+    ],
+    "planting_notes": "Native wildflower — extremely drought-tolerant perennial (zones 3-9). Spreads via rhizomes — divide every 2-3 years. Excellent cut and dried flower. Attracts beneficial predatory insects."
+  },
+  "nasturtium": {
+    "common_name": "Nasturtium",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 90,
+    "common_problems": [
+      "aphids (excellent trap crop — draw aphids away from vegetables)",
+      "black fly",
+      "flea beetles"
+    ],
+    "planting_notes": "Direct sow after last frost — dislikes root disturbance. Poor soil produces more flowers; rich soil produces leaves at the expense of blooms. Flowers, leaves, and seeds are all edible. Excellent companion plant."
+  },
+  "strawberry": {
+    "common_name": "Strawberry",
+    "type": "fruit",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "gray mold (botrytis)",
+      "slugs",
+      "strawberry root weevil",
+      "spider mites",
+      "verticillium wilt"
+    ],
+    "planting_notes": "Plant June-bearers for one large crop; everbearing for additional fall crop. Remove runners first year to strengthen crowns. Mulch with straw before winter in zones below 5. Perennial in zones 3-10."
+  },
+  "blueberry": {
+    "common_name": "Blueberry",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "mummy berry",
+      "spotted wing drosophila",
+      "birds (net plants to protect)",
+      "root rot in heavy soil"
+    ],
+    "planting_notes": "Needs acidic soil (pH 4.5-5.5) — amend with sulfur if needed. Plant 2 different varieties for cross-pollination. Takes 3-4 years to produce well. Perennial in zones 3-7 (highbush) or 3-6 (lowbush)."
+  },
+  "raspberry": {
+    "common_name": "Raspberry",
+    "type": "fruit",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "cane blight",
+      "spotted wing drosophila",
+      "raspberry beetle",
+      "birds"
+    ],
+    "planting_notes": "Summer-bearing types fruit on second-year canes — cut these to the ground after harvest. Ever-bearing types can be cut all the way back each fall. Plant in rows with support. Perennial in zones 4-8."
+  },
+  "blackberry": {
+    "common_name": "Blackberry",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "cane blight",
+      "spotted wing drosophila",
+      "spider mites",
+      "rosette (double blossom)"
+    ],
+    "planting_notes": "Thorny or thornless varieties available. Vigorous spreader — use root barriers or plant where spreading is acceptable. Fruits on second-year canes. Perennial in zones 5-9."
+  },
+  "grape": {
+    "common_name": "Grape",
+    "type": "fruit",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "powdery mildew",
+      "downy mildew",
+      "grape phylloxera",
+      "Japanese beetles",
+      "birds"
+    ],
+    "planting_notes": "Train on a sturdy trellis or arbor. Prune aggressively each winter — most fruit forms on one-year-old wood. Choose varieties suited to your region. Perennial in zones 4-9 depending on variety."
+  },
+  "watermelon": {
+    "common_name": "Watermelon",
+    "type": "fruit",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 65,
+    "max_temp_f": 95,
+    "common_problems": [
+      "powdery mildew",
+      "fusarium wilt",
+      "aphids",
+      "cucumber beetles"
+    ],
+    "planting_notes": "Needs warm soil (70°F+) and a long hot season (70-90 days). Direct sow after last frost or start indoors 3-4 weeks early. Harvest when the tendril nearest the fruit turns brown and the bottom turns yellow."
+  },
+  "cantaloupe": {
+    "common_name": "Cantaloupe",
+    "type": "fruit",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 65,
+    "max_temp_f": 95,
+    "common_problems": [
+      "powdery mildew",
+      "aphids",
+      "cucumber beetles",
+      "bacterial wilt"
+    ],
+    "planting_notes": "Plant after soil reaches 70°F. Harvest when netting is well-defined, skin turns beige, and fruit slips easily from the vine. Reduce watering as fruit ripens to concentrate sweetness."
+  },
+  "fig": {
+    "common_name": "Fig",
+    "type": "fruit",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 20,
+    "max_temp_f": 100,
+    "common_problems": [
+      "fig rust",
+      "root knot nematode",
+      "birds",
+      "fig mosaic virus"
+    ],
+    "planting_notes": "Hardy in zones 7-10; grow in containers in colder zones and overwinter in a garage or cool basement. Very drought-tolerant once established. Root-prune or grow in containers to encourage fruiting."
+  },
+  "lemon": {
+    "common_name": "Lemon",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "citrus leafminer",
+      "aphids",
+      "scale insects",
+      "citrus canker",
+      "root rot"
+    ],
+    "planting_notes": "Hardy only in zones 9-11 outdoors (Meyer lemon is most cold-tolerant). Grow in containers elsewhere and overwinter indoors. Needs well-draining soil. Fertilize regularly with citrus-specific fertilizer."
+  },
+  "apple": {
+    "common_name": "Apple",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "apple scab",
+      "fire blight",
+      "codling moth",
+      "cedar apple rust",
+      "powdery mildew"
+    ],
+    "planting_notes": "Most varieties need a pollination partner. Choose rootstock appropriate for your space (dwarf, semi-dwarf, standard). Prune each winter for an open canopy. Requires 500-1,000 chill hours (below 45°F). Perennial in zones 4-8."
+  },
+  "peach": {
+    "common_name": "Peach",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "peach leaf curl",
+      "brown rot",
+      "peach tree borer",
+      "bacterial spot"
+    ],
+    "planting_notes": "Needs 600-900 chill hours. Thin fruit aggressively to 6-inch spacing for large, flavorful fruit. Peach leaf curl managed with copper spray in fall after leaf drop. Perennial in zones 5-8."
+  },
+  "cherry": {
+    "common_name": "Cherry",
+    "type": "fruit",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "brown rot",
+      "cherry leaf spot",
+      "cherry fruit fly",
+      "birds (net aggressively)"
+    ],
+    "planting_notes": "Sweet cherries need a pollinator; sour cherries are self-fertile. Sweet types need 1,000+ chill hours; sour types 700+. Sour cherries are hardier and more disease-resistant. Perennial in zones 4-7."
+  },
+  "gooseberry": {
+    "common_name": "Gooseberry",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 80,
+    "common_problems": [
+      "powdery mildew",
+      "sawfly larvae",
+      "gooseberry fruit fly"
+    ],
+    "planting_notes": "Hardy perennial in zones 3-8. Tolerates partial shade better than most fruit plants. Thorny — wear gloves when harvesting. Harvest in stages: tart when green for cooking, sweeter when fully ripe."
+  },
+  "currant": {
+    "common_name": "Currant",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 80,
+    "common_problems": [
+      "currant aphid",
+      "white pine blister rust",
+      "powdery mildew"
+    ],
+    "planting_notes": "Hardy perennial in zones 3-6. Red and white currants are self-fertile; black currants have a stronger flavor and need more space. Check local regulations — currants are restricted in some US states. Tolerates more shade than most fruits."
+  },
+  "rhubarb": {
+    "common_name": "Rhubarb",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "crown rot",
+      "rhubarb curculio",
+      "ascochyta leaf spot"
+    ],
+    "planting_notes": "Perennial in zones 3-8. Do not harvest first year — let roots establish. Only stalks are edible; leaves are toxic (contain oxalic acid). Stop harvesting when stalks become thin. Needs cold winters for proper dormancy."
+  },
+  "artichoke": {
+    "common_name": "Artichoke",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "aphids",
+      "powdery mildew",
+      "botrytis",
+      "artichoke plume moth"
+    ],
+    "planting_notes": "Perennial in zones 7-11; grow as annual in colder climates by chilling transplants for 250 hours below 50°F to trigger bud set. Needs lots of space — 4-6 feet wide. Harvest buds before they open."
+  },
+  "parsnip": {
+    "common_name": "Parsnip",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 75,
+    "common_problems": [
+      "carrot fly",
+      "leaf miners",
+      "canker"
+    ],
+    "planting_notes": "Direct sow only — very slow to germinate (2-3 weeks). Plant as early as soil can be worked. Flavor sweetens dramatically after frost. Can be left in the ground through winter and harvested in early spring."
+  },
+  "rutabaga": {
+    "common_name": "Rutabaga",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 75,
+    "common_problems": [
+      "clubroot",
+      "flea beetles",
+      "root maggots",
+      "aphids"
+    ],
+    "planting_notes": "Cool-season crop. Direct sow 90 days before first fall frost. Needs a long growing season (90-110 days). Flavor improves significantly after light frost. Store in cool, moist conditions."
+  },
+  "celeriac": {
+    "common_name": "Celeriac",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 45,
+    "max_temp_f": 80,
+    "common_problems": [
+      "celery leaf miner",
+      "early blight",
+      "aphids"
+    ],
+    "planting_notes": "Very long season (100-120 days). Start indoors 12 weeks before last frost. Remove side shoots as the root bulb develops to direct energy. Harvest before hard freeze. Knobby exterior peels away to reveal mild, celery-flavored flesh."
+  },
+  "endive": {
+    "common_name": "Endive",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 75,
+    "common_problems": [
+      "tip burn",
+      "bolting in heat",
+      "aphids",
+      "slugs"
+    ],
+    "planting_notes": "Cool-season crop. Blanch heads by tying outer leaves together 1-2 weeks before harvest to reduce bitterness. Grow in spring or fall. Curly endive (frisée) and broad-leafed (escarole) are the two main types."
+  },
+  "mustard_greens": {
+    "common_name": "Mustard Greens",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 75,
+    "common_problems": [
+      "flea beetles",
+      "aphids",
+      "cabbage worms",
+      "downy mildew"
+    ],
+    "planting_notes": "Fast-maturing cool-season crop (30-40 days). Bolts quickly in heat — plant in early spring or fall. Peppery flavor intensifies in warm weather and after frost. Harvest outer leaves for continuous production."
+  },
+  "collard_greens": {
+    "common_name": "Collard Greens",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 20,
+    "max_temp_f": 90,
+    "common_problems": [
+      "cabbage worms",
+      "aphids",
+      "downy mildew",
+      "black rot"
+    ],
+    "planting_notes": "More heat and cold tolerant than most brassicas. Flavor improves after frost. Start indoors or direct sow. Harvest outer leaves continuously. Can survive through winter in zones 6+ with protection."
+  },
+  "tomatillo": {
+    "common_name": "Tomatillo",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 55,
+    "max_temp_f": 90,
+    "common_problems": [
+      "aphids",
+      "flea beetles",
+      "tomato hornworm",
+      "Colorado potato beetle"
+    ],
+    "planting_notes": "Requires at least 2 plants for cross-pollination. Start indoors 6-8 weeks before last frost. Harvest when the papery husk splits open and fruit fills it completely. Highly productive once established."
+  },
+  "shallot": {
+    "common_name": "Shallot",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "onion thrips",
+      "downy mildew",
+      "fusarium basal rot"
+    ],
+    "planting_notes": "Plant sets in spring (or fall in mild climates) 4 inches apart. Each set multiplies into a cluster of 3-6 bulbs. Harvest when tops fall and begin to dry. Cure in a warm, dry spot and store like onions."
+  },
+  "edamame": {
+    "common_name": "Edamame",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 95,
+    "common_problems": [
+      "bean beetles",
+      "aphids",
+      "pod borer",
+      "spider mites"
+    ],
+    "planting_notes": "Direct sow after soil reaches 60°F. Harvest when pods are bright green, plump, and still tender — timing is critical, as pods can go from perfect to starchy in just a few days. Blanch and shell, or boil whole pods and salt."
+  },
+  "fava_bean": {
+    "common_name": "Fava Bean",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 35,
+    "max_temp_f": 75,
+    "common_problems": [
+      "black bean aphid",
+      "chocolate spot",
+      "rust"
+    ],
+    "planting_notes": "Cool-season crop — plant in early spring or fall. Does not tolerate summer heat. Fixes nitrogen like other legumes. Harvest pods when they feel round and plump but before they turn leathery and dark."
+  },
+  "lima_bean": {
+    "common_name": "Lima Bean",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 65,
+    "max_temp_f": 90,
+    "common_problems": [
+      "bean beetles",
+      "aphids",
+      "pod drop in extreme heat"
+    ],
+    "planting_notes": "Direct sow after soil reaches 65°F — more heat-demanding than green beans. Bush types mature faster; pole types are more productive. Harvest when pods feel round and full but seeds are still plump, not dry."
+  },
+  "acorn_squash": {
+    "common_name": "Acorn Squash",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 95,
+    "common_problems": [
+      "squash vine borers",
+      "powdery mildew",
+      "cucumber beetles"
+    ],
+    "planting_notes": "Direct sow after last frost. Matures in 75-90 days. Harvest when rind is dark green and the stem begins to dry and cork over. Cure at room temperature for a week and store in a cool, dry place for months."
+  },
+  "radicchio": {
+    "common_name": "Radicchio",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 75,
+    "common_problems": [
+      "aphids",
+      "tip burn",
+      "downy mildew",
+      "slugs"
+    ],
+    "planting_notes": "Cool-season crop with bitter, chicory-like flavor. Start in summer for a fall harvest — exposure to cold sweetens the flavor and triggers heads to color up red. Cut back in fall; plants often regenerate from the root."
+  },
+  "watercress": {
+    "common_name": "Watercress",
+    "type": "vegetable",
+    "watering_frequency": "daily",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 70,
+    "common_problems": [
+      "slugs",
+      "bolting in heat",
+      "root rot without adequate moisture"
+    ],
+    "planting_notes": "Grows best in flowing water or containers kept sitting in trays of water. Bolts in heat — best in spring and fall. Pinch flower heads to prolong harvest. Can also be grown in consistently moist soil in a shaded spot."
+  },
+  "lemon_verbena": {
+    "common_name": "Lemon Verbena",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 30,
+    "max_temp_f": 100,
+    "common_problems": [
+      "spider mites",
+      "aphids",
+      "whiteflies"
+    ],
+    "planting_notes": "Tender perennial — grow as annual in zones below 8. Intensely lemon-scented; fragrance strengthens when dried. Cut back hard in fall if overwintering indoors. Loses leaves in winter but roots often survive in zone 8 with mulching."
+  },
+  "fenugreek": {
+    "common_name": "Fenugreek",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 85,
+    "common_problems": [
+      "powdery mildew",
+      "aphids",
+      "root rot in wet soil"
+    ],
+    "planting_notes": "Annual. Direct sow after last frost — does not transplant well. Young leaves and dried seeds are both used in cooking. Fixes nitrogen like other legumes. Bolts relatively quickly; succession-sow for continuous leaf harvest."
+  },
+  "winter_savory": {
+    "common_name": "Winter Savory",
+    "type": "herb",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 10,
+    "max_temp_f": 95,
+    "common_problems": [
+      "root rot in poorly drained soil",
+      "spider mites"
+    ],
+    "planting_notes": "Hardy perennial in zones 5-9. More pungent and peppery than summer savory. Drought-tolerant once established. Trim after flowering to prevent woodiness. Excellent companion plant for beans — said to repel bean beetles."
+  },
+  "spearmint": {
+    "common_name": "Spearmint",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "rust",
+      "aphids",
+      "powdery mildew",
+      "invasive spreading via runners"
+    ],
+    "planting_notes": "Spreads aggressively via underground runners — grow in containers or install a root barrier. Milder than peppermint with a classic fresh mint flavor. Perennial in zones 4-9. Harvest before flowering for best flavor."
+  },
+  "bee_balm": {
+    "common_name": "Bee Balm",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "powdery mildew (very susceptible)",
+      "aphids",
+      "rust"
+    ],
+    "planting_notes": "Native perennial in zones 4-9. Powerful magnet for pollinators and hummingbirds. Bergamot-scented leaves used in teas. Choose mildew-resistant varieties. Divide every 2-3 years to prevent decline and improve air circulation."
+  },
+  "anise_hyssop": {
+    "common_name": "Anise Hyssop",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "powdery mildew in poor air circulation",
+      "aphids"
+    ],
+    "planting_notes": "Short-lived perennial or annual (zones 4-9). Self-seeds freely. Licorice-anise flavor — flowers and leaves are both edible. Excellent bee and butterfly plant. Drought-tolerant once established. Deadhead to extend bloom or allow to self-seed."
+  },
+  "epazote": {
+    "common_name": "Epazote",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 100,
+    "common_problems": [
+      "very few — highly disease and pest resistant"
+    ],
+    "planting_notes": "Annual used in Mexican and Central American cooking, especially with beans (traditionally said to reduce gas). Direct sow after last frost. Grows readily in poor, dry soil. Self-seeds aggressively — considered invasive in some regions."
+  },
+  "shiso": {
+    "common_name": "Shiso",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 55,
+    "max_temp_f": 95,
+    "common_problems": [
+      "aphids",
+      "flea beetles",
+      "thrips"
+    ],
+    "planting_notes": "Annual used in Japanese and Korean cuisine. Start indoors 4-6 weeks before last frost or direct sow after soil warms. Both red (purple) and green varieties are available, each with slightly different flavor. Self-seeds freely in warm climates."
+  },
+  "caraway": {
+    "common_name": "Caraway",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 80,
+    "common_problems": [
+      "aphids",
+      "carrot fly",
+      "root rot in heavy soil"
+    ],
+    "planting_notes": "Biennial — first year produces leafy growth, second year flowers and sets seed. Direct sow in fall or very early spring. Seeds are the primary harvest; use like fennel seed. Allow seeds to fully ripen and dry on the plant before collecting."
+  },
+  "sweet_cicely": {
+    "common_name": "Sweet Cicely",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 80,
+    "common_problems": [
+      "aphids",
+      "powdery mildew"
+    ],
+    "planting_notes": "Hardy perennial in zones 3-7. Anise-flavored leaves and seeds act as a natural sweetener — can replace some sugar in recipes. Needs cold stratification to germinate — sow in fall or stratify in the refrigerator. Prefers cool, moist, shaded spots."
+  },
+  "peony": {
+    "common_name": "Peony",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "botrytis blight",
+      "phytophthora blight",
+      "ants (cosmetic only — they feed on nectar, not the plant)"
+    ],
+    "planting_notes": "Plant bare-root in fall with eyes no more than 1-2 inches below soil — planting too deep prevents blooming. Perennial in zones 3-8. Needs 6+ weeks of cold for spring blooms. Stake heavy blooms to prevent flopping. Long-lived — plants can thrive for 50+ years."
+  },
+  "chrysanthemum": {
+    "common_name": "Chrysanthemum",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "aphids",
+      "spider mites",
+      "botrytis",
+      "chrysanthemum white rust",
+      "leaf miners"
+    ],
+    "planting_notes": "Perennial in zones 5-9. Pinch growing tips through early summer (stop by early July) to promote bushy, well-branched plants with more blooms. Fall-planted mums may not overwinter reliably — plant in spring for best establishment."
+  },
+  "lily": {
+    "common_name": "Lily",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "red lily beetle",
+      "botrytis",
+      "aphids",
+      "voles eating bulbs"
+    ],
+    "planting_notes": "Plant bulbs in fall, 3x the bulb's diameter deep. Asiatic types bloom earliest and are easiest; Oriental types are fragrant but more demanding. Hardy in zones 4-8. Keep roots cool with mulch. All lily parts are highly toxic to cats."
+  },
+  "iris": {
+    "common_name": "Iris",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "iris borer",
+      "rhizome soft rot",
+      "leaf spot",
+      "thrips"
+    ],
+    "planting_notes": "Plant rhizomes with the tops exposed to the sun — burying them promotes rot and inhibits blooming. Bearded iris are the most common type. Perennial in zones 3-9. Divide every 3-4 years after bloom to maintain vigor."
+  },
+  "tulip": {
+    "common_name": "Tulip",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 65,
+    "common_problems": [
+      "tulip fire (botrytis)",
+      "aphids",
+      "bulb rot",
+      "voles and squirrels eating bulbs"
+    ],
+    "planting_notes": "Plant bulbs 6-8 inches deep in fall after soil cools below 50°F. Most hybrid tulips are best treated as annuals — replace after bloom. Species tulips are more reliably perennial. Hardy in zones 3-7. Do not plant near garlic or onions."
+  },
+  "daffodil": {
+    "common_name": "Daffodil",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 65,
+    "common_problems": [
+      "narcissus bulb fly",
+      "basal rot",
+      "daffodil blindness (no blooms from over-deep planting)"
+    ],
+    "planting_notes": "Plant bulbs 6-8 inches deep in fall. Reliably perennial in zones 3-8. Deer, squirrel, and rodent resistant — all parts are toxic. Allow foliage to die back naturally to replenish the bulb. Excellent naturalizer for lawns and slopes."
+  },
+  "ornamental_allium": {
+    "common_name": "Ornamental Allium",
+    "type": "flower",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "bulb rot in wet soil",
+      "onion fly",
+      "downy mildew"
+    ],
+    "planting_notes": "Plant bulbs in fall. Giant alliums (A. giganteum) are showiest — 6-inch purple globes on 4-foot stems. Deer and rodent resistant due to onion smell. Allow leaves to die back before removing. Perennial in zones 4-8."
+  },
+  "aster": {
+    "common_name": "Aster",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "powdery mildew (very common)",
+      "aster yellows",
+      "rust",
+      "aphids"
+    ],
+    "planting_notes": "Fall-blooming perennial in zones 4-8. Pinch tips through June for busier plants with more blooms. Choose mildew-resistant varieties. Water at the base. Excellent late-season pollinator plant when little else is blooming."
+  },
+  "delphinium": {
+    "common_name": "Delphinium",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 75,
+    "common_problems": [
+      "powdery mildew",
+      "crown rot",
+      "black aphids",
+      "slugs"
+    ],
+    "planting_notes": "Cool-climate perennial (zones 3-7). Struggles in heat and humidity — best in Pacific Northwest and northern gardens. Stake tall varieties against wind. Cut spikes back after first bloom for a second flush. All parts are toxic if ingested."
+  },
+  "lupine": {
+    "common_name": "Lupine",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 75,
+    "common_problems": [
+      "powdery mildew",
+      "aphids",
+      "crown rot",
+      "slugs"
+    ],
+    "planting_notes": "Cool-climate perennial (zones 4-8). Nitrogen-fixing roots improve soil. Needs well-draining, slightly acidic soil. Direct sow in fall or early spring after scarifying seeds. Does not transplant well. Declines in southern heat and humidity."
+  },
+  "bleeding_heart": {
+    "common_name": "Bleeding Heart",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 80,
+    "common_problems": [
+      "fusarium wilt",
+      "slugs",
+      "aphids"
+    ],
+    "planting_notes": "Shade-tolerant perennial in zones 3-9. Old-fashioned types go dormant in summer heat — pair with hostas or ferns to fill the gap. Fringed bleeding heart (D. eximia) blooms longer and stays greener in summer. All parts are toxic if ingested."
+  },
+  "hellebore": {
+    "common_name": "Hellebore",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 5,
+    "max_temp_f": 80,
+    "common_problems": [
+      "hellebore leaf blotch",
+      "black death virus",
+      "aphids",
+      "slugs"
+    ],
+    "planting_notes": "Extremely cold-hardy evergreen perennial (zones 4-9). One of the first plants to bloom, often pushing through snow. Remove old foliage in late winter before flowers emerge. Clumps are long-lived and resent disturbance. Toxic — wear gloves when handling."
+  },
+  "phlox": {
+    "common_name": "Phlox",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 85,
+    "common_problems": [
+      "powdery mildew (very common)",
+      "spider mites",
+      "eriophyid mites"
+    ],
+    "planting_notes": "Tall garden phlox is perennial in zones 4-8. Choose mildew-resistant varieties. Always water at the base, never overhead. Deadhead for continued bloom. Divide every 3-4 years to maintain vigor and improve air circulation. Fragrant and excellent for pollinators."
+  },
+  "verbena": {
+    "common_name": "Verbena",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 100,
+    "common_problems": [
+      "powdery mildew",
+      "spider mites",
+      "aphids",
+      "thrips"
+    ],
+    "planting_notes": "Annual in most zones; perennial in zones 9-10. Very heat and drought tolerant once established. Shear back by half in midsummer to encourage fresh growth and fall rebloom. Excellent in containers, hanging baskets, and as a groundcover."
+  },
+  "stock": {
+    "common_name": "Stock",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 35,
+    "max_temp_f": 65,
+    "common_problems": [
+      "downy mildew",
+      "aphids",
+      "clubroot",
+      "root rot"
+    ],
+    "planting_notes": "Cool-season annual with intensely clove-fragrant flowers. Plant in early spring or fall. Does not tolerate summer heat — plan for it to finish before temperatures rise. One of the most fragrant cut flowers available. Start indoors 6-8 weeks before transplanting."
+  },
+  "pear": {
+    "common_name": "Pear",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "fire blight (most serious)",
+      "pear psylla",
+      "codling moth",
+      "pear leaf blister mite"
+    ],
+    "planting_notes": "Most European pears need a pollination partner. Choose fire blight resistant varieties (Kieffer, Orient, Moonglow). Harvest before fully ripe and ripen indoors. Asian pears ripen on the tree. Perennial in zones 4-9."
+  },
+  "plum": {
+    "common_name": "Plum",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 95,
+    "common_problems": [
+      "brown rot",
+      "plum curculio",
+      "black knot fungus",
+      "aphids"
+    ],
+    "planting_notes": "Japanese plums need a pollinator; European plums are often self-fertile. Thin fruit aggressively to prevent limb breakage. Black knot fungus is common — prune infected branches well below the visible knot. Perennial in zones 4-9."
+  },
+  "apricot": {
+    "common_name": "Apricot",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "brown rot",
+      "cytospora canker",
+      "late frost killing early blooms",
+      "aphids"
+    ],
+    "planting_notes": "Blooms very early — prone to late frost damage. Plant on north-facing slopes or sheltered spots to delay blooming in spring. Self-fertile. Thin fruit to 3-4 inch spacing after fruit set. Perennial in zones 5-8."
+  },
+  "elderberry": {
+    "common_name": "Elderberry",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "aphids",
+      "elderberry borer",
+      "powdery mildew",
+      "stem cankers"
+    ],
+    "planting_notes": "Native shrub in zones 3-8. Plant 2 different varieties for better production. Raw berries, leaves, and bark are toxic — always cook before consuming. Prune out 3-year-old canes each winter to encourage vigorous new growth."
+  },
+  "mulberry": {
+    "common_name": "Mulberry",
+    "type": "fruit",
+    "watering_frequency": "weekly",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "scale insects",
+      "canker",
+      "bacterial leaf scorch",
+      "birds eating fruit"
+    ],
+    "planting_notes": "Very productive and low-maintenance once established. Fruit stains anything it touches — do not plant near walkways or driveways. Red and black mulberries are native to North America. Perennial in zones 5-9."
+  },
+  "kiwi": {
+    "common_name": "Kiwi",
+    "type": "fruit",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 10,
+    "max_temp_f": 95,
+    "common_problems": [
+      "root rot",
+      "armored scale",
+      "Japanese beetles",
+      "cats attracted to the vine (similar to catnip effect)"
+    ],
+    "planting_notes": "Hardy kiwi (A. arguta) tolerates -25°F (zones 4-8) and produces small, smooth-skinned fruit. Fuzzy kiwi needs zones 7-9. Dioecious — one male plant pollinates 6-8 females. Vigorous vine requires a very sturdy trellis and annual pruning."
+  },
+  "pomegranate": {
+    "common_name": "Pomegranate",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 15,
+    "max_temp_f": 110,
+    "common_problems": [
+      "heart rot",
+      "leaf-footed bugs",
+      "scale insects",
+      "cercospora fruit spot"
+    ],
+    "planting_notes": "Heat-loving shrub hardy in zones 7-10. Grow in containers in cooler zones and overwinter in a frost-free location. Self-fertile. Harvest when rind turns deep red and fruit makes a metallic sound when tapped. Do not let fruit crack on the tree."
+  },
+  "quince": {
+    "common_name": "Quince",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "fire blight",
+      "quince leaf blight",
+      "codling moth",
+      "brown rot"
+    ],
+    "planting_notes": "Self-fertile. Fruit is hard and astringent when raw — must be cooked to be palatable. Harvest after first frost for improved flavor. Ornamental as well as productive — beautiful spring blossoms. Perennial in zones 5-9."
+  },
+  "nectarine": {
+    "common_name": "Nectarine",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "peach leaf curl",
+      "brown rot",
+      "peach tree borer",
+      "bacterial spot"
+    ],
+    "planting_notes": "A fuzz-free mutation of peach with nearly identical care requirements. Needs 500-900 chill hours below 45°F. Self-fertile. Thin fruit aggressively to 4-6 inch spacing. Apply copper spray in fall to prevent peach leaf curl. Perennial in zones 5-8."
+  },
+  "pawpaw": {
+    "common_name": "Pawpaw",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": 32,
+    "max_temp_f": 90,
+    "common_problems": [
+      "very few pests — avoided by most insects and wildlife",
+      "pawpaw peduncle borer",
+      "zebra swallowtail larvae (cosmetic damage only)"
+    ],
+    "planting_notes": "Native North American fruit with tropical custard-like texture. Hardy in zones 5-8. Plant at least 2 genetically different trees for cross-pollination. Young trees need shade for 1-2 years. Fruit has a very short shelf life — eat within days of harvest. Hand-pollinate for better yields."
+  },
+  "jicama": {
+    "common_name": "Jicama",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 65,
+    "max_temp_f": 100,
+    "common_problems": [
+      "needs long frost-free season (5-9 months)",
+      "roots rot in wet soil",
+      "slow to establish"
+    ],
+    "planting_notes": "Sow after last frost once soil is 70°F+. Only the root is edible — leaves and seeds are toxic. Best in warm climates or greenhouses. Harvest before first frost."
+  },
+  "sunchoke": {
+    "common_name": "Jerusalem Artichoke",
+    "type": "vegetable",
+    "watering_frequency": "every 5-7 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -20,
+    "max_temp_f": 90,
+    "common_problems": [
+      "spreads aggressively — difficult to eradicate",
+      "digestive discomfort for some people",
+      "rust"
+    ],
+    "planting_notes": "Plant tubers 4-6 inches deep, 12-18 inches apart. Extremely hardy and productive. Harvest after frost for sweetest flavor. Use root barriers to prevent spreading."
+  },
+  "napa_cabbage": {
+    "common_name": "Napa Cabbage",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": 40,
+    "max_temp_f": 80,
+    "common_problems": [
+      "bolting in heat",
+      "aphids",
+      "cabbage worms",
+      "black rot"
+    ],
+    "planting_notes": "Cool-season crop. Start 6-8 weeks before first fall frost or in early spring. Frost tolerant. Harvest when heads feel firm and heavy."
+  },
+  "malabar_spinach": {
+    "common_name": "Malabar Spinach",
+    "type": "vegetable",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 100,
+    "common_problems": [
+      "slugs on young plants",
+      "dies at first frost"
+    ],
+    "planting_notes": "Heat-season spinach substitute — thrives where true spinach bolts. Sow after last frost. Trellis the vigorous vines. Leaves are mucilaginous and best cooked."
+  },
+  "amaranth_greens": {
+    "common_name": "Amaranth Greens",
+    "type": "vegetable",
+    "watering_frequency": "every 4-5 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 55,
+    "max_temp_f": 100,
+    "common_problems": [
+      "self-seeds prolifically",
+      "leaf miners",
+      "aphids"
+    ],
+    "planting_notes": "Direct sow after last frost. Harvest young leaves for best flavor. Drought-tolerant once established. Can also be grown for grain. Thrives in hot weather."
+  },
+  "mizuna": {
+    "common_name": "Mizuna",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": 35,
+    "max_temp_f": 75,
+    "common_problems": [
+      "bolting in heat",
+      "flea beetles",
+      "aphids"
+    ],
+    "planting_notes": "Japanese mustard green. Direct sow in early spring or fall. Harvest outer leaves repeatedly. Very frost tolerant — can overwinter under row cover in mild climates."
+  },
+  "purslane": {
+    "common_name": "Purslane",
+    "type": "vegetable",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 100,
+    "common_problems": [
+      "self-seeds freely and can become weedy",
+      "needs good drainage"
+    ],
+    "planting_notes": "Succulent edible groundcover. Drought-tolerant once established. Sow after last frost. Harvest young tips for salads. Rich in omega-3 fatty acids."
+  },
+  "escarole": {
+    "common_name": "Escarole",
+    "type": "vegetable",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": 40,
+    "max_temp_f": 75,
+    "common_problems": [
+      "bolting in heat",
+      "tipburn",
+      "aphids",
+      "slugs"
+    ],
+    "planting_notes": "Cool-season chicory. Direct sow or start indoors 4 weeks before transplant date. Blanch heads by tying outer leaves for milder flavor. Frost tolerant."
+  },
+  "garden_cress": {
+    "common_name": "Garden Cress",
+    "type": "vegetable",
+    "watering_frequency": "every 1-2 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": 40,
+    "max_temp_f": 70,
+    "common_problems": [
+      "bolts quickly in heat",
+      "needs consistent moisture"
+    ],
+    "planting_notes": "One of the fastest crops — harvest in 10-14 days. Succession sow every 2 weeks for continuous harvest. Grows well indoors on a windowsill in winter."
+  },
+  "yam": {
+    "common_name": "Yam",
+    "type": "vegetable",
+    "watering_frequency": "every 5-7 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 65,
+    "max_temp_f": 100,
+    "common_problems": [
+      "requires long warm season (6-10 months)",
+      "tuber rot in waterlogged soil",
+      "nematodes"
+    ],
+    "planting_notes": "True yams (distinct from sweet potatoes) need frost-free conditions for months. Plant vine cuttings or tuber pieces in warm, well-drained soil. Needs a sturdy trellis."
+  },
+  "rue": {
+    "common_name": "Rue",
+    "type": "herb",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 10,
+    "max_temp_f": 90,
+    "common_problems": [
+      "sap causes skin photosensitivity — wear gloves",
+      "root rot in wet soil"
+    ],
+    "planting_notes": "Hardy perennial. Grow from seed or cuttings. Traditionally used as a companion plant to repel pests. Historically medicinal — handle with care, toxic in large amounts."
+  },
+  "angelica": {
+    "common_name": "Angelica",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": -20,
+    "max_temp_f": 75,
+    "common_problems": [
+      "needs cold stratification to germinate",
+      "short-lived — biennial or triennial",
+      "slugs on young plants"
+    ],
+    "planting_notes": "Biennial or short-lived perennial. Sow fresh seeds in fall — they need cold stratification. Grows 4-6 ft tall. Dies after flowering unless flower stalks are cut back promptly."
+  },
+  "summer_savory": {
+    "common_name": "Summer Savory",
+    "type": "herb",
+    "watering_frequency": "every 4-5 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 50,
+    "max_temp_f": 90,
+    "common_problems": [
+      "bolts to seed quickly in heat",
+      "poor flavor when drought-stressed"
+    ],
+    "planting_notes": "Annual herb. Direct sow after last frost. Classic pairing with beans and lentils. Harvest before flowering for best flavor. Successive plantings extend the harvest season."
+  },
+  "sweet_woodruff": {
+    "common_name": "Sweet Woodruff",
+    "type": "herb",
+    "watering_frequency": "every 5-7 days",
+    "sun_requirements": "full shade to partial shade",
+    "min_temp_f": -30,
+    "max_temp_f": 75,
+    "common_problems": [
+      "spreads aggressively in moist shade",
+      "crown rot in wet winters"
+    ],
+    "planting_notes": "Hardy perennial groundcover ideal for shaded gardens. Smells of vanilla and hay when dried. Used to flavor May wine. Spreads by runners — excellent under deciduous trees."
+  },
+  "pennyroyal": {
+    "common_name": "Pennyroyal",
+    "type": "herb",
+    "watering_frequency": "every 4-5 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": 0,
+    "max_temp_f": 85,
+    "common_problems": [
+      "toxic if ingested in large amounts",
+      "spreads aggressively",
+      "root rot in poor drainage"
+    ],
+    "planting_notes": "Creeping perennial mint. Grow in contained beds to prevent spreading. Traditionally used as an insect repellent. Do not use medicinally — toxic at high doses."
+  },
+  "lemon_thyme": {
+    "common_name": "Lemon Thyme",
+    "type": "herb",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 0,
+    "max_temp_f": 90,
+    "common_problems": [
+      "root rot in wet or heavy soil",
+      "loses flavor if over-watered",
+      "winter die-back in cold climates"
+    ],
+    "planting_notes": "Hardy perennial. Grow in well-drained soil. Use in place of regular thyme for a citrus note. Trim back in spring to encourage new growth. Excellent in containers."
+  },
+  "holy_basil": {
+    "common_name": "Holy Basil (Tulsi)",
+    "type": "herb",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 60,
+    "max_temp_f": 95,
+    "common_problems": [
+      "dies at frost",
+      "root rot in waterlogged soil",
+      "aphids"
+    ],
+    "planting_notes": "Sacred in Indian culture with a clove-like aroma. Start indoors 6 weeks before last frost or direct sow after frost. Pinch flowers to extend the leaf harvest."
+  },
+  "nigella": {
+    "common_name": "Nigella (Love-in-a-Mist)",
+    "type": "herb",
+    "watering_frequency": "every 5-7 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 30,
+    "max_temp_f": 80,
+    "common_problems": [
+      "does not transplant well",
+      "short bloom period in heat"
+    ],
+    "planting_notes": "Annual. Direct sow in early spring — tolerates light frost. Black seeds are used as a spice (black cumin/kalonji). Self-sows readily. Does not transplant well."
+  },
+  "curry_leaf": {
+    "common_name": "Curry Leaf",
+    "type": "herb",
+    "watering_frequency": "every 5-7 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 35,
+    "max_temp_f": 100,
+    "common_problems": [
+      "cold sensitive — bring indoors below 40°F",
+      "spider mites indoors",
+      "chlorosis in alkaline soil"
+    ],
+    "planting_notes": "Aromatic tropical shrub/tree. Grow in containers in cold climates and overwinter indoors. Essential in South Indian cuisine. Avoid harvesting more than 1/3 of leaves at once."
+  },
+  "vietnamese_coriander": {
+    "common_name": "Vietnamese Coriander (Rau Ram)",
+    "type": "herb",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": 50,
+    "max_temp_f": 95,
+    "common_problems": [
+      "frost sensitive",
+      "root rot if waterlogged"
+    ],
+    "planting_notes": "Tender perennial. Propagate from cuttings — does not set seed reliably. Strong cilantro-like flavor used in Vietnamese cuisine. Bring indoors before frost or treat as an annual."
+  },
+  "ranunculus": {
+    "common_name": "Ranunculus",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 25,
+    "max_temp_f": 75,
+    "common_problems": [
+      "corms rot in wet soil",
+      "aphids",
+      "thrips",
+      "powdery mildew in humid conditions"
+    ],
+    "planting_notes": "Grow from corms. Pre-soak corms 4 hours before planting. Plant in fall in mild climates; spring in cold. Blooms best in cool weather. Lift corms after foliage dies back."
+  },
+  "anemone": {
+    "common_name": "Anemone",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": 20,
+    "max_temp_f": 75,
+    "common_problems": [
+      "crown rot in poorly drained soil",
+      "spider mites",
+      "powdery mildew"
+    ],
+    "planting_notes": "Plant tubers with the flattened side up — pre-soak for 4 hours. Fall planting in warm climates; spring in cold. Excellent long-lasting cut flower."
+  },
+  "clematis": {
+    "common_name": "Clematis",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -20,
+    "max_temp_f": 85,
+    "common_problems": [
+      "clematis wilt",
+      "powdery mildew",
+      "spider mites",
+      "vine weevils"
+    ],
+    "planting_notes": "Keep roots cool and shaded, tops in sun ('feet in shade, head in sun'). Plant crown 2-3 inches below soil to protect from wilt. Pruning group depends on cultivar."
+  },
+  "wisteria": {
+    "common_name": "Wisteria",
+    "type": "flower",
+    "watering_frequency": "every 5-7 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -20,
+    "max_temp_f": 90,
+    "common_problems": [
+      "aggressive spreader — can damage structures",
+      "slow to flower from seed (5-7 years)",
+      "borers"
+    ],
+    "planting_notes": "Vigorous woody vine requiring very strong support. Prune twice yearly to control growth and encourage bloom. Buy grafted plants for faster flowering results."
+  },
+  "dianthus": {
+    "common_name": "Dianthus (Pinks)",
+    "type": "flower",
+    "watering_frequency": "every 4-5 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -20,
+    "max_temp_f": 85,
+    "common_problems": [
+      "crown rot from overwatering",
+      "fusarium wilt",
+      "spider mites",
+      "aphids"
+    ],
+    "planting_notes": "Annual, biennial, or perennial depending on species. Plant in well-drained, slightly alkaline soil. Deadhead to prolong blooming. Fragrant clove-scented flowers."
+  },
+  "scabiosa": {
+    "common_name": "Scabiosa (Pincushion Flower)",
+    "type": "flower",
+    "watering_frequency": "every 4-5 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -20,
+    "max_temp_f": 85,
+    "common_problems": [
+      "crown rot in wet winters",
+      "powdery mildew",
+      "aphids"
+    ],
+    "planting_notes": "Long-blooming perennial (or annual species). Excellent pollinator plant. Deadhead regularly. Best in well-drained, neutral to slightly alkaline soil."
+  },
+  "gaillardia": {
+    "common_name": "Gaillardia (Blanket Flower)",
+    "type": "flower",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -30,
+    "max_temp_f": 100,
+    "common_problems": [
+      "short-lived perennial",
+      "root rot in heavy or wet soil",
+      "powdery mildew"
+    ],
+    "planting_notes": "Very drought and heat tolerant. Direct sow or transplant after last frost — blooms first year from seed. Allow some self-seeding to renew short-lived plantings."
+  },
+  "agapanthus": {
+    "common_name": "Agapanthus (Lily of the Nile)",
+    "type": "flower",
+    "watering_frequency": "every 5-7 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": 20,
+    "max_temp_f": 100,
+    "common_problems": [
+      "cold damage to roots",
+      "mealybugs",
+      "slugs on new growth"
+    ],
+    "planting_notes": "Dramatic blue or white flower clusters. Evergreen in mild climates; lift rhizomes before frost in cold regions. Blooms best when slightly pot-bound. Divide clumps every 4-5 years."
+  },
+  "crocosmia": {
+    "common_name": "Crocosmia",
+    "type": "flower",
+    "watering_frequency": "every 5-7 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": 0,
+    "max_temp_f": 90,
+    "common_problems": [
+      "invasive in mild climates",
+      "corms rot in wet winters",
+      "spider mites in drought"
+    ],
+    "planting_notes": "Plant corms 3-5 inches deep after last frost. Spreads by stolons — divide regularly. Vivid orange-red flowers attract hummingbirds. Mulch corms in colder climates."
+  },
+  "liatris": {
+    "common_name": "Liatris (Blazing Star)",
+    "type": "flower",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -40,
+    "max_temp_f": 90,
+    "common_problems": [
+      "root rot in poorly drained soil",
+      "voles eating corms",
+      "powdery mildew"
+    ],
+    "planting_notes": "Native prairie perennial. Plant corms 2-4 inches deep. Blooms top-to-bottom (unusual trait). Extremely cold hardy. Excellent for pollinators and dried arrangements."
+  },
+  "astilbe": {
+    "common_name": "Astilbe",
+    "type": "flower",
+    "watering_frequency": "every 2-3 days",
+    "sun_requirements": "partial shade",
+    "min_temp_f": -30,
+    "max_temp_f": 85,
+    "common_problems": [
+      "leaf scorch and wilt in sun or drought",
+      "powdery mildew",
+      "root rot if waterlogged"
+    ],
+    "planting_notes": "Ideal for shady moist gardens. Feathery plumes in pink, red, white, or purple. Divide every 3-4 years to maintain vigor. Needs consistent moisture — do not let dry out."
+  },
+  "geum": {
+    "common_name": "Geum (Avens)",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": -20,
+    "max_temp_f": 80,
+    "common_problems": [
+      "crown rot in wet winter soil",
+      "spider mites in heat",
+      "short-lived in hot humid climates"
+    ],
+    "planting_notes": "Clump-forming perennial with bright orange, red, or yellow flowers in late spring. Divide every 2-3 years. Thrives in cool climates; struggles in hot, humid summers."
+  },
+  "catmint": {
+    "common_name": "Catmint (Nepeta)",
+    "type": "flower",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -30,
+    "max_temp_f": 90,
+    "common_problems": [
+      "cats may roll on and damage plants",
+      "crown rot in wet winters",
+      "self-seeds prolifically"
+    ],
+    "planting_notes": "Hardy drought-tolerant perennial with fragrant gray-green foliage. Shear back by half after first bloom for a second flush. Excellent edging plant and pollinator attractor."
+  },
+  "balloon_flower": {
+    "common_name": "Balloon Flower (Platycodon)",
+    "type": "flower",
+    "watering_frequency": "every 4-5 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": -40,
+    "max_temp_f": 85,
+    "common_problems": [
+      "very slow to emerge in spring — mark location to avoid disturbing",
+      "crown rot in wet soil",
+      "slugs on new growth"
+    ],
+    "planting_notes": "Hardy perennial with inflated buds that pop open into star-shaped bells. Long-lived if drainage is good. Blue, pink, or white flowers. Do not disturb the crown — resents transplanting."
+  },
+  "sweet_william": {
+    "common_name": "Sweet William",
+    "type": "flower",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -20,
+    "max_temp_f": 80,
+    "common_problems": [
+      "fusarium wilt",
+      "aphids",
+      "crown rot in wet winters",
+      "short-lived biennial"
+    ],
+    "planting_notes": "Biennial in the dianthus family with fragrant clustered flowers. Sow outdoors in summer for flowers the following year. Self-sows if some flowers are left to set seed."
+  },
+  "persimmon": {
+    "common_name": "Persimmon",
+    "type": "fruit",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -10,
+    "max_temp_f": 100,
+    "common_problems": [
+      "dropping unripe fruit",
+      "crown gall",
+      "borers",
+      "astringent varieties require full ripeness before eating"
+    ],
+    "planting_notes": "Low-maintenance tree once established. American persimmon is hardier than Asian types. Harvest after first frost for sweetest flavor in astringent varieties. Some cultivars need both male and female trees."
+  },
+  "jujube": {
+    "common_name": "Jujube (Chinese Date)",
+    "type": "fruit",
+    "watering_frequency": "every 10-14 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": -20,
+    "max_temp_f": 110,
+    "common_problems": [
+      "few pest problems",
+      "root suckers can spread",
+      "insufficient fruit in cool summers"
+    ],
+    "planting_notes": "Extremely tough and drought-tolerant tree that thrives in poor, dry soils. Eat fresh or dry like dates. Most cultivars are self-fertile. Ripens in late summer to fall."
+  },
+  "serviceberry": {
+    "common_name": "Serviceberry (Juneberry)",
+    "type": "fruit",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": -50,
+    "max_temp_f": 90,
+    "common_problems": [
+      "birds take fruit very quickly — net to protect",
+      "cedar-serviceberry rust",
+      "fireblight"
+    ],
+    "planting_notes": "Native multi-season shrub or small tree. Beautiful spring blossoms, early-summer berries with blueberry-like flavor, and fall color. Very cold hardy. Excellent for wildlife."
+  },
+  "tayberry": {
+    "common_name": "Tayberry",
+    "type": "fruit",
+    "watering_frequency": "every 4-5 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 0,
+    "max_temp_f": 85,
+    "common_problems": [
+      "cane blight",
+      "Japanese beetles",
+      "spur blight",
+      "thorny canes — wear gloves"
+    ],
+    "planting_notes": "Raspberry-blackberry hybrid with rich, aromatic flavor. Plant canes 18 inches apart on a trellis. Prune out fruited canes after harvest. Very productive."
+  },
+  "boysenberry": {
+    "common_name": "Boysenberry",
+    "type": "fruit",
+    "watering_frequency": "every 4-5 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 10,
+    "max_temp_f": 90,
+    "common_problems": [
+      "root rot",
+      "cane blight",
+      "gray mold on fruit",
+      "Japanese beetles"
+    ],
+    "planting_notes": "Trailing bramble — a complex hybrid of raspberry, blackberry, and loganberry. Train on a trellis. Remove old canes after fruiting. Very large, flavorful berries."
+  },
+  "pineapple_guava": {
+    "common_name": "Pineapple Guava (Feijoa)",
+    "type": "fruit",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 15,
+    "max_temp_f": 100,
+    "common_problems": [
+      "frost damage to flowers reduces fruit set",
+      "scale insects",
+      "fruit drop if under-pollinated"
+    ],
+    "planting_notes": "Ornamental evergreen shrub with edible petals and fruit. Many cultivars are self-fertile but yield better with a pollinator nearby. Harvest when fruit drops naturally."
+  },
+  "passion_fruit": {
+    "common_name": "Passion Fruit",
+    "type": "fruit",
+    "watering_frequency": "every 3-4 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "frost kills top growth",
+      "woodiness virus",
+      "fusarium wilt",
+      "root rot"
+    ],
+    "planting_notes": "Fast-growing tropical vine needing a strong trellis. Most varieties benefit from cross-pollination or hand-pollination. Harvest when skin wrinkles slightly. Grow as an annual in frost-prone areas."
+  },
+  "dragon_fruit": {
+    "common_name": "Dragon Fruit (Pitaya)",
+    "type": "fruit",
+    "watering_frequency": "every 7-14 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 32,
+    "max_temp_f": 100,
+    "common_problems": [
+      "frost kills plant",
+      "overwatering causes root rot",
+      "bacterial rot",
+      "needs strong support structure"
+    ],
+    "planting_notes": "Cactus-like climbing vine. Drought-tolerant — let soil dry between waterings. Flowers open only at night; hand-pollinate for best yields. Grow in containers in cold climates."
+  },
+  "loquat": {
+    "common_name": "Loquat",
+    "type": "fruit",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 12,
+    "max_temp_f": 100,
+    "common_problems": [
+      "fireblight",
+      "late frost kills flowers and reduces yield",
+      "fruit is very perishable"
+    ],
+    "planting_notes": "Evergreen subtropical tree that bears fruit in winter-spring. Largely pest-free and rarely needs pruning. Fruit is very perishable — eat or preserve within days of harvest."
+  },
+  "olive": {
+    "common_name": "Olive",
+    "type": "fruit",
+    "watering_frequency": "every 14-21 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 15,
+    "max_temp_f": 115,
+    "common_problems": [
+      "olive knot disease",
+      "verticillium wilt",
+      "olive fruit fly",
+      "root rot in waterlogged soil"
+    ],
+    "planting_notes": "Long-lived, drought-tolerant tree. Needs hot dry summers and cool (not freezing) winters to fruit well. Raw olives are bitter — requires curing. Self-fertile but yields improve with a pollinator."
+  },
+  "avocado": {
+    "common_name": "Avocado",
+    "type": "fruit",
+    "watering_frequency": "every 5-7 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 28,
+    "max_temp_f": 100,
+    "common_problems": [
+      "root rot — very susceptible, needs excellent drainage",
+      "laurel wilt",
+      "avocado lace bug",
+      "frost damage",
+      "nutrient deficiencies in alkaline soil"
+    ],
+    "planting_notes": "Subtropical tree needing excellent drainage — never let roots sit in water. Type A and Type B cultivars improve cross-pollination. Takes 3-4 years from a grafted plant to bear fruit."
+  },
+  "lime": {
+    "common_name": "Lime",
+    "type": "fruit",
+    "watering_frequency": "every 5-7 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 28,
+    "max_temp_f": 100,
+    "common_problems": [
+      "cold damage — most cold-sensitive citrus",
+      "citrus greening disease",
+      "spider mites",
+      "scale insects"
+    ],
+    "planting_notes": "Most cold-sensitive citrus. Grow in containers in cold climates to overwinter indoors. Water regularly but allow soil to dry slightly between waterings. Fertilize with citrus-specific fertilizer."
+  },
+  "orange": {
+    "common_name": "Orange",
+    "type": "fruit",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 25,
+    "max_temp_f": 100,
+    "common_problems": [
+      "citrus greening disease",
+      "scale insects",
+      "root rot",
+      "split fruit from irregular watering",
+      "frost damage"
+    ],
+    "planting_notes": "Grow outdoors in USDA zones 9-11; container growing works well in colder climates. Needs heat to sweeten fruit. Most varieties are self-fertile. Move containers indoors before frost."
+  },
+  "grapefruit": {
+    "common_name": "Grapefruit",
+    "type": "fruit",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun",
+    "min_temp_f": 27,
+    "max_temp_f": 100,
+    "common_problems": [
+      "citrus greening disease",
+      "brown rot",
+      "scale insects",
+      "cold damage to fruit"
+    ],
+    "planting_notes": "Needs a long, hot season to sweeten properly. Best outdoors in zones 9-11. Large tree — space 15-20 feet apart. Self-fertile. More cold-hardy than lime but less so than navel orange."
+  },
+  "medlar": {
+    "common_name": "Medlar",
+    "type": "fruit",
+    "watering_frequency": "every 7-10 days",
+    "sun_requirements": "full sun to partial shade",
+    "min_temp_f": -10,
+    "max_temp_f": 85,
+    "common_problems": [
+      "fireblight",
+      "brown rot",
+      "leaf spot",
+      "fruit must be bletted before eating"
+    ],
+    "planting_notes": "Ancient, ornamental fruit tree rarely seen in modern gardens. Fruit must be 'bletted' (softened by frost or warm storage) before eating — the result tastes like spiced apple butter. Cold-hardy and self-fertile."
+  }
+}
