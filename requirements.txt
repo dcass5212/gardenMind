@@ -2,3 +2,5 @@ groq
 requests
 streamlit
 python-dotenv
+chromadb
+sentence-transformers

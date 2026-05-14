@@ -81,8 +81,8 @@ def get_frost_dates(location: str) -> dict:
     if key in _CITY_FROST_DATA:
         return {"location": location.title(), **_CITY_FROST_DATA[key]}
 
-    # Partial match — city name contained in key or vice versa
-    for city, dates in _CITY_FROST_DATA.items():
+    # Partial match — longest city name wins to avoid "portland" beating "portland or"
+    for city, dates in sorted(_CITY_FROST_DATA.items(), key=lambda x: -len(x[0])):
         if key in city or city in key:
             return {"location": city.title(), **dates}
 

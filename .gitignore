@@ -5,6 +5,9 @@
 # User data
 data/profiles/
 
+# Generated ChromaDB vector index (run `py scripts/build_plant_index.py` once to rebuild)
+data/plant_index/
+
 # Python
 __pycache__/
 *.pyc
@@ -22,3 +25,10 @@ env/
 # Private docs
 INTERVIEW.md
 CLAUDE.md
+
+# Claude Code
+.claude/
+
+# Streamlit secrets
+.streamlit/secrets.toml.example
+.streamlit/secrets.toml

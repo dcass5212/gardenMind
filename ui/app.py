@@ -21,7 +21,7 @@ except Exception:
 
 load_dotenv()
 
-from agent import SYSTEM_PROMPT, TOOLS, MODEL, _call_tool, _chat
+from agent import SYSTEM_PROMPT, TOOLS, MODEL, _call_tool, _chat, _RAW_TOOL_RE, _strip_leaked_tool_syntax
 from tools.profile import get_garden_profile, update_garden_profile
 
 # ── Human-readable labels shown in the status widget while tools run ────────────
@@ -277,6 +277,7 @@ if prompt := st.chat_input("Ask about your garden, weather, frost dates, plants.
         reply = ""
 
         with st.status("🌱 Thinking...", expanded=True) as status:
+            xml_retries = 0
             while True:
                 response = _chat(
                     st.session_state.groq_client,
@@ -289,6 +290,11 @@ if prompt := st.chat_input("Ask about your garden, weather, frost dates, plants.
                 # No tool calls — final answer
                 if not message.tool_calls:
                     reply = message.content or ""
+                    if _RAW_TOOL_RE.search(reply):
+                        if xml_retries < 2:
+                            xml_retries += 1
+                            continue
+                        reply = _strip_leaked_tool_syntax(reply)
                     status.update(label="✅ Done", state="complete", expanded=False)
                     break
 

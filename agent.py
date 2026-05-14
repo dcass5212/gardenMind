@@ -133,8 +133,20 @@ _TOOL_MAP = {
 _MAX_RETRIES = 4
 _RATE_LIMIT_BACKOFF = [20, 40, 65]  # seconds to wait on successive 429s (~1 min window reset)
 
-# Pattern for when the model emits tool calls as raw XML text instead of structured calls
-_RAW_TOOL_XML_RE = re.compile(r"<\w[\w_]*>\s*\{.*?\}\s*</\w[\w_]*>", re.DOTALL)
+# Patterns for when the model emits tool calls as raw text instead of structured calls.
+# llama-3.1-8b-instant leaks two main formats:
+#   1. <tool_call>{"name": ..., "arguments": ...}</tool_call>
+#   2. <func_name>{"arg": "val"}</func_name>
+_RAW_TOOL_RE = re.compile(
+    r"<tool_call>.*?</tool_call>"
+    r"|<\w[\w_]*>\s*\{.*?\}\s*</\w[\w_]*>",
+    re.DOTALL,
+)
+
+
+def _strip_leaked_tool_syntax(text: str) -> str:
+    """Remove leaked tool-call markup the model occasionally emits as plain text."""
+    return _RAW_TOOL_RE.sub("", text).strip()
 
 
 def _chat(client_instance, messages: list) -> object:
@@ -173,6 +185,7 @@ def _chat(client_instance, messages: list) -> object:
                 msgs = [msgs[0]] + msgs[3:]
                 continue
             raise
+    raise RuntimeError(f"_chat: exceeded {_MAX_RETRIES} retries without a successful response")
 
 
 def _call_tool(name: str, args: dict) -> str:
@@ -209,11 +222,13 @@ def run_agent(user_message: str, conversation_history: list) -> str:
         # No tool calls — we have the final answer
         if not message.tool_calls:
             reply = message.content or ""
-            # Detect model emitting raw XML tool-call syntax instead of structured calls;
-            # retry up to 2 times so it can self-correct.
-            if _RAW_TOOL_XML_RE.search(reply) and xml_retries < 2:
-                xml_retries += 1
-                continue
+            # Detect model emitting raw tool-call syntax instead of structured calls;
+            # retry up to 2 times so it can self-correct, then strip as a fallback.
+            if _RAW_TOOL_RE.search(reply):
+                if xml_retries < 2:
+                    xml_retries += 1
+                    continue
+                reply = _strip_leaked_tool_syntax(reply)
             conversation_history.append({"role": "assistant", "content": reply})
             return reply
 

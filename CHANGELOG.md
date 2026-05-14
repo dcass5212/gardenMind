@@ -5,6 +5,30 @@ Format: `## [date] — summary of change`
 
 ---
 
+## [2026-05-11] — Add semantic vector search for plant lookup
+
+- Added `chromadb` + `sentence-transformers` to `requirements.txt`
+- `scripts/build_plant_index.py` — indexes all 200 plants into a persistent ChromaDB collection using `all-MiniLM-L6-v2` embeddings
+- `tools/plants.py` — now tries fast JSON exact/plural/substring lookup first, then falls back to semantic vector search for descriptive queries (e.g. "drought tolerant succulent" → Sedum); original `data/plants.json` retained as canonical source and hard fallback
+- `ROADMAP.md` — added Phase 7 (ML Upgrade) with 7a/7b/7c items; marked 7a complete
+
+---
+
+## [2026-05-11] — Fix five bugs across agent, tools, and UI
+
+- `agent.py`: `_chat()` now raises `RuntimeError` after exhausting all retries instead of implicitly returning `None` and causing a downstream `AttributeError`
+- `tools/frost.py`: partial city match now sorts by name length (longest first) so "Portland, OR" matches "portland or" (Oregon) instead of "portland" (Maine)
+- `tools/plants.py`: changed `if/if` to `if/elif` for pluralization candidates — words ending in "es" no longer also trigger the bare "s" strip, avoiding a spurious intermediate candidate
+- `tools/profile.py`: added `_safe_profile_path()` to validate that a resolved profile path stays within `_PROFILES_DIR`, preventing path traversal via crafted `user_id` values
+- `ui/app.py`: replicated `run_agent`'s XML tool-leak retry/strip logic in the UI's inline agent loop; also imports `_RAW_TOOL_RE` and `_strip_leaked_tool_syntax` from `agent`
+
+---
+
+## [2026-05-11] — Fix leaked tool-call syntax in agent responses
+
+- Expanded `_RAW_TOOL_RE` to also catch `<tool_call>...</tool_call>` blocks (llama-3.1-8b-instant's second leak format)
+- Added `_strip_leaked_tool_syntax()` as a deterministic fallback when retries are exhausted, so raw function syntax never reaches the user
+
 ## [2026-05-06] — README screenshots and INTERVIEW.md metrics fix
 
 - Renamed 3 docs/ screenshots to URL-safe filenames

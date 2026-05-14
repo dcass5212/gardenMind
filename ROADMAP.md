@@ -37,6 +37,27 @@
 - [x] evals/run_evals.py script complete
 - [x] Pass rate measured and documented — 20/25 (80%) on llama-3.1-8b-instant
 
-## Phase 6 — Polish ✅README.md complete with demo screenshots
+## Phase 6 — Polish ✅
+
+- [x] README.md complete with demo screenshots
 - [x] Code cleaned up and commented
 - [x] Deployed to Streamlit Cloud
+
+## Phase 7 — ML Extension
+
+### 7a — Semantic Plant Search (vector store) ✅
+- [x] Add `chromadb` + `sentence-transformers` to requirements
+- [x] `scripts/build_plant_index.py` — builds ChromaDB index from `data/plants.json`
+- [x] Updated `tools/plants.py` — JSON lookup first, semantic vector search fallback
+- [ ] Verify eval pass rate is unchanged or better
+
+### 7b — Plant Disease Classifier
+- [ ] Find/create labeled image dataset (plant diseases)
+- [ ] Train a small CNN or fine-tune a pretrained model (ResNet/EfficientNet)
+- [ ] Expose as a tool: `classify_plant_disease(image_path)` → disease name + confidence
+- [ ] Wire into agent and UI (image upload in Streamlit)
+
+### 7c — Model Upgrade
+- [ ] Evaluate Claude Haiku 4.5 or GPT-4o-mini as drop-in replacement for llama-3.1-8b
+- [ ] Compare structured output reliability and eval pass rate
+- [ ] Update system prompt and tool schemas if needed
